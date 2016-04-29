@@ -1,0 +1,4 @@
+<menu id="mainMenu" title="Settings">
+    <menu-item id="restart">Restart</menu-item>
+    <menu-item id="second">Second Menu Item</menu-item>
+</menu>

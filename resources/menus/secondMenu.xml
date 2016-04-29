@@ -1,0 +1,4 @@
+<menu id="secondMenu" title="Second Menu Item">
+    <menu-item id="one">one</menu-item>
+    <menu-item id="two">two</menu-item>
+</menu>

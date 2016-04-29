@@ -1,0 +1,15 @@
+<strings>
+    <string id="AppName">Draw</string>
+    <string id="prompt">Press Start.</string>
+    <string id="top_left">10s Power</string>
+    <string id="top_left_data">__</string>
+    <string id="top_right">30s Power</string>
+    <string id="top_right_data">__</string>
+    <string id="bottom_left">Heart Rate</string>
+    <string id="bottom_left_data">__</string>
+    <string id="bottom_right">Cadence</string>
+    <string id="bottom_right_data">__</string>
+    <string id="top_">Time</string>
+    <string id="middle_">Distance</string>
+    <string id="bottom_">Third Metric</string>
+</strings>

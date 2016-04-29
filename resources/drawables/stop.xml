@@ -1,0 +1,4 @@
+<drawable-list id="stop" background="Gfx.COLOR_TRANSPARENT">
+    <shape type="rectangle" x="center" y="center" width="53" height="53" color="Gfx.COLOR_BLACK" />
+    <shape type="rectangle" x="center" y="center" width="45" height="45" color="Gfx.COLOR_DK_RED" />
+</drawable-list>

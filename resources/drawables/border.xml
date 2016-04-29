@@ -1,0 +1,6 @@
+<drawable-list id="border" background="Gfx.COLOR_TRANSPARENT">
+    <shape type="rectangle" x="0" y="0" width="dc.getWidth()" height="4" color="borderLine" />
+    <shape type="rectangle" x="0" y="0" width="4" height="dc.getHeight()" color="borderLine" />
+    <shape type="rectangle" x="0" y="borderHeight" width="dc.getWidth()" height="4" color="borderLine" />
+    <shape type="rectangle" x="borderWidth" y="0" width="4" height="dc.getHeight()" color="borderLine" />
+</drawable-list>
