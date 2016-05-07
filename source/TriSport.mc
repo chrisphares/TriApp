@@ -10,7 +10,7 @@ class TriSport {
 
 	function initialize() {
 		currentState = ACTIVITY_STOP;
-		currentSport = 0;
+		currentSport = -1;
 		mTimer = new Timer.Timer();
 	}
 

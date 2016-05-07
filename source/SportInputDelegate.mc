@@ -13,61 +13,72 @@ class SportInputDelegate extends Ui.InputDelegate {
 		mTimer = new Timer.Timer();
 	}
 
-    function onKeyHeld() {
-    	stopChange = true;
-        if (mSport.getState() == ACTIVITY_STOP) {
-        	Sys.println(state);
-        	Sys.println("activity already stopped, do nothing");
-        }
-        else {
-        	Sys.println("activity not stopped, stop it");
-        	mSport.setState(ACTIVITY_STOP);
-        	//stop the activity
-        }
-        return true;
-    }
+	function onHold(evt) {
+		if (mSport.getState() == ACTIVITY_STOP) {
+			Sys.println("activity already stopped, do nothing");
+		}
+		else if (mSport.getSport() != SPORT_SWIM) {
+			Sys.println("activity not stopped, stop it");
+			mSport.setState(ACTIVITY_STOP);
+		}
+		return true;
+	}
+
+	function onTap(evt) {
+		if (mSport.getState() == ACTIVITY_STOP) {
+			Sys.println("activity stopped, start it");
+			mSport.setState(ACTIVITY_RECORD);
+		}
+		else {
+			Sys.println("activity not stopped, do nothing");
+		}
+		return true;
+	}
 
 	function onKey(evt) {
 		var key = evt.getKey();
 
-		if (key == KEY_ESC) {
+		if (key == Ui.KEY_ESC) {
         	Sys.println("key disabled... for now"); //add check for activity_stop
+        	return true;
 		}
-        return true;
-	}
-
-	function onKeyPressed(evt) {
-		var key = evt.getKey();
-
-		if (key == Ui.KEY_ENTER) {
+		else if (key == Ui.KEY_ENTER) {
 			Sys.println("enter");
-			if (mSport.getState() == ACTIVITY_STOP) {
+			if (mSport.getState() == ACTIVITY_RECORD) {
+				Sys.println("activity recording, transition");
+				var view = getNextView();
+				mSport.setSport(mSport.getSport() + 1);
 				mSport.setState(ACTIVITY_RECORD);
-				Sys.println("start activititty");
-				stopChange = true;
-			}
-			else {
-				mTimer.stop();
-				mTimer.start(method(:onKeyHeld), 1000, false); //do something after 1 second
+				Ui.switchToView(view, new SportInputDelegate(mSport, mSettings), Ui.SLIDE_IMMEDIATE);
 			}
 		}
+		return true;
 	}
 
-	function onKeyReleased(evt) {
-		var key = evt.getKey();
-		if (key == Ui.KEY_ENTER) {
-			if (stopChange) {
-				Sys.println("first press, dont do things");
-				stopChange = false;
-			}
-			else if ((mSport.getState() == ACTIVITY_RECORD) && (!stopChange)) {
-				Sys.println("activity recording, transition");
-				Ui.switchToView(new TransitionView(mSport), new TransitionInputDelegate(mSport), Ui.SLIDE_IMMEDIATE);
-			}
-			else {
-				return true;
-			}
+	function getNextView() {
+		var nextSport = mSport.getSport() + 1; //add transition yes/no ness plus additionl settings for the page types
+		var view = null;
+
+		if (nextSport == SPORT_SWIM) {
+			view = new TwoView(mSport, mSettings);
 		}
-		mTimer.stop();
+		else if (nextSport == SPORT_T1 || nextSport == SPORT_T2) {
+			view = new TwoView(mSport, mSettings);
+		}
+		else if (nextSport == SPORT_BIKE) {
+			view = new FourView(mSport, mSettings);
+		}
+		else if (nextSport == SPORT_RUN) {
+			view = new FourView(mSport, mSettings);
+		}
+		else if (nextSport == SPORT_FINISH) {
+			view = new finishBubbleView(mSport, mSettings);
+			mSport.setState(ACTIVITY_FINISH);
+		}
+		else if (nextSport > SPORT_FINISH) {
+			Sys.exit(); // a bit harsh for now.
+		}
+
+		return view;
 	}
 }

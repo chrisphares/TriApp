@@ -1,4 +1,4 @@
-<layout id="dataFields" background="Gfx.COLOR_TRANSPARENT" >
+<layout id="evenFields" background="Gfx.COLOR_TRANSPARENT" >
 	<drawable id="separator" />
 	<label id="topLeft" text="@Strings.top_left" x="2" y="2" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />
 	<label id="topRight" text="@Strings.top_right" x="106" y="0" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />

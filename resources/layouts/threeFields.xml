@@ -1,10 +1,10 @@
-<layout id="finish" background="Gfx.COLOR_TRANSPARENT" >
+<layout id="threeFields" background="Gfx.COLOR_TRANSPARENT" >
 	<drawable id="border" />
 	<drawable id="separater3" />
 	<label id="top_" text="@Strings.top_" x="4" y="4" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />
 	<label id="middle_" text="@Strings.middle_" x="6" y="49" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />
 	<label id="bottom_" text="@Strings.bottom_" x="6" y="97" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />
-	<label id="top_Data" text="00:00:00" x="198" y="13" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
-	<label id="middle_Data" text="140.3" x="198" y="61" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
-	<label id="bottom_Data" text="12345" x="198" y="108" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	<label id="top_Data" text="@Strings.top_Data" x="198" y="13" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	<label id="middle_Data" text="@Strings.middle_Data" x="198" y="61" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	<label id="bottom_Data" text="@Strings.bottom_Data" x="198" y="108" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
 </layout>

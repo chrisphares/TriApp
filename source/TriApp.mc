@@ -18,15 +18,13 @@ enum {
 	SPORT_FINISH
 }
 
-var vertLine = Gfx.COLOR_TRANSPARENT;
-var horizonLine = Gfx.COLOR_TRANSPARENT;
+var lineColor;
 var borderLine = Gfx.COLOR_TRANSPARENT;
 var borderWidth;
 var borderHeight;
-var play = false;
-var stop = false;
-var stopChange = true;
-var t1 = true;
+var play = false; //play animation visible
+var stop = false; //stop animation visible
+var t1 = true; //t1 or t2; remove with correct order function
 
 // *****************************************
 

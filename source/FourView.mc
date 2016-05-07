@@ -2,9 +2,10 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 
-class BikeView extends Ui.View {
+class FourView extends Ui.View {
 
 	hidden var mSport;
+	hidden var mSettings;
 	hidden var drawBorder;
 	hidden var image;
 	hidden var drawPlay;
@@ -12,8 +13,9 @@ class BikeView extends Ui.View {
 	const TEXT_MARGIN = 2;
 	const BORDER_PADDING = 4;
 
-	function initialize(sport) {
+	function initialize(sport, settings) {
 		mSport = sport;
+		mSettings = settings;
 		drawBorder = new Rez.Drawables.border();
 		image = Rez.Drawables.playIcon;
 		drawPlay = Ui.loadResource(image);
@@ -24,7 +26,7 @@ class BikeView extends Ui.View {
     function onLayout(dc) {
     	borderWidth = dc.getWidth() - 4;
 		borderHeight = dc.getHeight() - 4;
-		setLayout(Rez.Layouts.dataFields(dc));
+		setLayout(Rez.Layouts.evenFields(dc));
     }
 	//! Called when this View is brought to the foreground. Restore
 	//! the state of this View and prepare it to be shown. This includes
@@ -34,7 +36,7 @@ class BikeView extends Ui.View {
 
 	//! Update the view
     function onUpdate(dc) {
-    	//labels = ["10s Power","30s Power","Heart Rate","Cadence"]; //get this from settings data
+    	var labels = mSettings.getLabelText(mSport.getSport());
     	var string;
     	var hValue;
 
@@ -72,8 +74,7 @@ class BikeView extends Ui.View {
 		bottomRightData.setText(string);
 		bottomRightData.setLocation(hValue, (dc.getHeight() - dc.getTextDimensions(string, Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
 
-		horizonLine = Gfx.COLOR_YELLOW;
-		vertLine = Gfx.COLOR_YELLOW;
+		lineColor = mSettings.getLineColor(mSport.getSport());
 
     	View.onUpdate(dc);
 		drawBorder.draw(dc);

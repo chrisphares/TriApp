@@ -2,7 +2,7 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 
-class TwoView extends Ui.View {
+class ThreeView extends Ui.View {
 
 	hidden var mSport;
 	hidden var mSettings;
@@ -25,7 +25,7 @@ class TwoView extends Ui.View {
     function onLayout(dc) {
     	borderWidth = dc.getWidth() - 4;
 		borderHeight = dc.getHeight() - 4;
-		setLayout(Rez.Layouts.evenFields(dc));
+		setLayout(Rez.Layouts.threeFields(dc));
     }
 	//! Called when this View is brought to the foreground. Restore
 	//! the state of this View and prepare it to be shown. This includes
@@ -39,35 +39,34 @@ class TwoView extends Ui.View {
     	var string;
     	var hValue;
 
-    	var topLeft = View.findDrawableById("topLeft");
-		topLeft.setText(labels[0]);
-		var topLeftData = View.findDrawableById("topLeftData");
+    	var top_ = View.findDrawableById("top_");
+		top_.setText(labels[0]);
+		var top_Data = View.findDrawableById("top_Data");
 		//get this value from the activity monitoring functionality
 		string = "350"; //god damm lock nesss monstuh
 		hValue = (dc.getWidth() / 2) + (dc.getTextWidthInPixels(string, Gfx.FONT_NUMBER_MEDIUM) / 2);
-		topLeftData.setText(string);
-		topLeftData.setLocation(hValue, (dc.getHeight() / 2 - dc.getTextDimensions(string, Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
+		top_Data.setText(string);
+		top_Data.setLocation(hValue, (dc.getHeight() / 3 - dc.getTextDimensions(string, Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
 
-		var topRight = View.findDrawableById("topRight");
-		topRight.setText(labels[1]);
-		var topRightData = View.findDrawableById("topRightData");
-		topRightData.setText("");
+		var middle_ = View.findDrawableById("middle_");
+		middle_.setText(labels[1]);
+		var middle_Data = View.findDrawableById("middle_Data");
+		//get this value from the activity monitoring functionality
+		string = "140.3";
+		hValue = (dc.getWidth() / 2) + (dc.getTextWidthInPixels(string, Gfx.FONT_NUMBER_MEDIUM) / 2);
+		middle_Data.setText(string);
+		middle_Data.setLocation(hValue, (dc.getHeight() / 3 * 2 - dc.getTextDimensions(string, Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
 
-		var bottomLeft = View.findDrawableById("bottomLeft");
-		bottomLeft.setText(labels[2]);
-		var bottomLeftData = View.findDrawableById("bottomLeftData");
+		var bottom_ = View.findDrawableById("bottom_");
+		bottom_.setText(labels[2]);
+		var bottom_Data = View.findDrawableById("bottom_Data");
 		//get this value from the activity monitoring functionality
 		string = "00:00.0";
 		hValue = (dc.getWidth() / 2) + (dc.getTextWidthInPixels(string, Gfx.FONT_NUMBER_MEDIUM) / 2);
-		bottomLeftData.setText(string);
-		bottomLeftData.setLocation(hValue, (dc.getHeight() - dc.getTextDimensions(string, Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
+		bottom_Data.setText(string);
+		bottom_Data.setLocation(hValue, (dc.getHeight() - dc.getTextDimensions(string, Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
 
-		var bottomRight = View.findDrawableById("bottomRight");
-		bottomRight.setText(labels[3]);
-		var bottomRightData = View.findDrawableById("bottomRightData");
-		bottomRightData.setText("");
-
-		lineColor = mSettings.getLineColor(mSport.getSport());
+		lineColor = getLineColor();
 
     	View.onUpdate(dc);
 		drawBorder.draw(dc);
@@ -80,5 +79,17 @@ class TwoView extends Ui.View {
     }
 
 	function onHide() {
+	}
+
+	function getLineColor() {
+		var sport = mSport.getSport();
+		var line = new [5];
+
+		if (sport == SPORT_FINISH) {
+			line[0] = Gfx.COLOR_WHITE;
+			line[1] = Gfx.COLOR_WHITE;
+		}
+
+		return line;
 	}
 }

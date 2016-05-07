@@ -1,4 +1,4 @@
 <drawable-list id="separator">
-    <shape type="rectangle" x="center" y="2" width="2" height="dc.getHeight() - 4" color="vertLine" />
-    <shape type="rectangle" x="2" y="center" width="dc.getWidth() - 4" height="2" color="horizonLine" />
+    <shape type="rectangle" x="center" y="2" width="2" height="dc.getHeight() - 4" color="lineColor[0]" />
+    <shape type="rectangle" x="2" y="center" width="dc.getWidth() - 4" height="2" color="lineColor[1]" />
 </drawable-list>

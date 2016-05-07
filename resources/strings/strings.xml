@@ -1,5 +1,5 @@
 <strings>
-    <string id="AppName">Draw</string>
+    <string id="AppName">Tri Sport</string>
     <string id="prompt">Press Start.</string>
     <string id="top_left">10s Power</string>
     <string id="top_left_data">__</string>
@@ -12,4 +12,19 @@
     <string id="top_">Time</string>
     <string id="middle_">Distance</string>
     <string id="bottom_">Third Metric</string>
+    <string id="top_Data">10:00.0</string>
+    <string id="middle_Data">140.3</string>
+    <string id="bottom_Data">33.3</string>
+    <string id="bubble1">Swim</string>
+    <string id="bubble2">T1</string>
+    <string id="bubble3">Bike</string>
+    <string id="bubble4">T2</string>
+    <string id="bubble5">Run</string>
+    <string id="header">Total</string>
+    <string id="bubble1_Data">45:50</string>
+    <string id="bubble2_Data">2:36</string>
+    <string id="bubble3_Data">3:02:03</string>
+    <string id="bubble4_Data">1:56</string>
+    <string id="bubble5_Data">1:33:20</string>
+    <string id="header_Data">5:00:00</string>    
 </strings>
