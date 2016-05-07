@@ -9,7 +9,6 @@ class TriSettings {
 		["10s Power","30s Power","Heart Rate","Cadence",""],
 		["Elapsed Time","","Heart Rate","",""],
 		["Elapsed Time","Lap Pace","Heart Rate","Cadence",""],
-		["Elapsed Time","Distance","33.3","",""],
 		["Swim","T1","Bike","T2", "Run"]
 	];
 

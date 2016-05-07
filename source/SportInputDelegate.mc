@@ -14,23 +14,23 @@ class SportInputDelegate extends Ui.InputDelegate {
 	}
 
 	function onHold(evt) {
-		if (mSport.getState() == ACTIVITY_STOP) {
-			Sys.println("activity already stopped, do nothing");
+		if ((mSport.getState() == ACTIVITY_STOP) || (mSport.getState() == ACTIVITY_FINISH)) {
+			Sys.println("activity already stopped/finished, do nothing");
 		}
-		else if (mSport.getSport() != SPORT_SWIM) {
-			Sys.println("activity not stopped, stop it");
+		else if ((mSport.getSport() != SPORT_SWIM) || (mSport.getState() != SPORT_FINISH)) {
+			Sys.println("activity not stopped(or swim), stop it");
 			mSport.setState(ACTIVITY_STOP);
 		}
 		return true;
 	}
 
 	function onTap(evt) {
-		if (mSport.getState() == ACTIVITY_STOP) {
+		if ((mSport.getState() == ACTIVITY_STOP) && (mSport.getState() != SPORT_FINISH)) {
 			Sys.println("activity stopped, start it");
 			mSport.setState(ACTIVITY_RECORD);
 		}
 		else {
-			Sys.println("activity not stopped, do nothing");
+			Sys.println("activity not stopped/is finished, do nothing");
 		}
 		return true;
 	}
@@ -39,24 +39,30 @@ class SportInputDelegate extends Ui.InputDelegate {
 		var key = evt.getKey();
 
 		if (key == Ui.KEY_ESC) {
-        	Sys.println("key disabled... for now"); //add check for activity_stop
-        	return true;
+			if (mSport.getState() == ACTIVITY_FINISH) {
+				Sys.exit();
+			}
+			else {
+	        	Sys.println("key disabled... for now"); //add check for activity_stop
+	        	return true;
+	        }
 		}
 		else if (key == Ui.KEY_ENTER) {
 			Sys.println("enter");
 			if (mSport.getState() == ACTIVITY_RECORD) {
-				Sys.println("activity recording, transition");
+				if (mSport.getSport() != SPORT_FINISH) {
+					mSport.setSport(mSport.getSport() + 1);
+				}
 				var view = getNextView();
-				mSport.setSport(mSport.getSport() + 1);
-				mSport.setState(ACTIVITY_RECORD);
 				Ui.switchToView(view, new SportInputDelegate(mSport, mSettings), Ui.SLIDE_IMMEDIATE);
 			}
+
 		}
 		return true;
 	}
 
 	function getNextView() {
-		var nextSport = mSport.getSport() + 1; //add transition yes/no ness plus additionl settings for the page types
+		var nextSport = mSport.getSport(); //add transition yes/no ness plus additionl settings for the page types
 		var view = null;
 
 		if (nextSport == SPORT_SWIM) {

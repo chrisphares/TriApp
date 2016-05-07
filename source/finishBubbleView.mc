@@ -25,9 +25,11 @@ class finishBubbleView extends Ui.View {
 
 	//! Update the view
     function onUpdate(dc) {
-    	var labels = mSettings.getLabelText(6); //technically inaccurate
+    	var labels = mSettings.getLabelText(mSport.getSport());
     	var string;
-    	var hValue;
+
+    	var header = View.findDrawableById("header");
+    	header.setColor(Gfx.COLOR_LT_GRAY);
 
     	var bubble1 = View.findDrawableById("bubble1");
     	bubble1.setColor(Gfx.COLOR_LT_GRAY);
@@ -53,7 +55,6 @@ class finishBubbleView extends Ui.View {
 		string = "3:02:03";
 		bubble3Data.setText(string);
 
-
     	var bubble4 = View.findDrawableById("bubble4");
     	bubble4.setColor(Gfx.COLOR_LT_GRAY);
 		bubble4.setText(labels[3]);
@@ -61,7 +62,6 @@ class finishBubbleView extends Ui.View {
 		//get this value from activity monitoring functionality
 		string = "1:56";
 		bubble4Data.setText(string);
-
 
     	var bubble5 = View.findDrawableById("bubble5");
     	bubble5.setColor(Gfx.COLOR_LT_GRAY);

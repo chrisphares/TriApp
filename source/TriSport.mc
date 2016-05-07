@@ -30,15 +30,6 @@ class TriSport {
 		mTimer.start(method(:clearBorder), 4000, false);
 	}
 
-	function getSport() {
-		return currentSport;
-	}
-
-	function setSport(sport) {
-		currentSport = sport;
-		return true;
-	}
-
 	function getState() {
 		return currentState;
 	}
@@ -51,20 +42,33 @@ class TriSport {
 				borderLine = Gfx.COLOR_DK_RED;
 				stop = true;
 				play = false;
+				mTimer.stop();
+				mTimer.start(method(:clearAnim), 1000, false); //clear animation color after 1 second
 			}
 			else if (currentState == ACTIVITY_RECORD) {
 				borderLine = Gfx.COLOR_DK_GREEN;
 				play = true;
 				stop = false;
+				mTimer.stop();
+				mTimer.start(method(:clearAnim), 1000, false); //clear animation color after 1 second
 			}
 			else if (currentState == ACTIVITY_FINISH) {
-				borderLine = Gfx.COLOR_WHITE;
+				return true;
 			}
-
 			Ui.requestUpdate();
+		}
+		return true;
+	}
 
-			mTimer.stop();
-			mTimer.start(method(:clearAnim), 1000, false); //clear animation color after 1 second
+	function getSport() {
+		return currentSport;
+	}
+
+	function setSport(sport) {
+		currentSport = sport;
+		if (currentSport == SPORT_FINISH) {
+			setState(ACTIVITY_FINISH);
+			Sys.println("finished");
 		}
 		return true;
 	}
