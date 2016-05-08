@@ -17,7 +17,6 @@ class TriSport {
 	function clearBorder() {
 		borderLine = Gfx.COLOR_TRANSPARENT;
 		Ui.requestUpdate();
-		Sys.println("bohdur");
 		mTimer.stop();
 	}
 
@@ -25,7 +24,6 @@ class TriSport {
 		play = false;
 		stop = false;
 		Ui.requestUpdate();
-		Sys.println("byee");
 		mTimer.stop();
 		mTimer.start(method(:clearBorder), 4000, false);
 	}

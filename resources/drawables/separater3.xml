@@ -1,4 +1,0 @@
-<drawable-list id="separater3">
-    <shape type="rectangle" x="2" y="49" width="dc.getWidth() - 4" height="2" color="Gfx.COLOR_WHITE" />
-    <shape type="rectangle" x="2" y="97" width="dc.getWidth() - 4" height="2" color="Gfx.COLOR_WHITE" />
-</drawable-list>

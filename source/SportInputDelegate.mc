@@ -17,7 +17,7 @@ class SportInputDelegate extends Ui.InputDelegate {
 		if ((mSport.getState() == ACTIVITY_STOP) || (mSport.getState() == ACTIVITY_FINISH)) {
 			Sys.println("activity already stopped/finished, do nothing");
 		}
-		else if ((mSport.getSport() != SPORT_SWIM) || (mSport.getState() != SPORT_FINISH)) {
+		else if ((mSport.getSport() != SPORT_SWIM) && (mSport.getState() != SPORT_FINISH)) {
 			Sys.println("activity not stopped(or swim), stop it");
 			mSport.setState(ACTIVITY_STOP);
 		}
@@ -30,7 +30,7 @@ class SportInputDelegate extends Ui.InputDelegate {
 			mSport.setState(ACTIVITY_RECORD);
 		}
 		else {
-			Sys.println("activity not stopped/is finished, do nothing");
+			Sys.println("activity not stopped/finished, do nothing");
 		}
 		return true;
 	}
