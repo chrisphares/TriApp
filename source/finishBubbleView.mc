@@ -30,45 +30,43 @@ class finishBubbleView extends Ui.View {
 
     	var header = View.findDrawableById("header");
     	header.setColor(Gfx.COLOR_LT_GRAY);
+    	var headerData = View.findDrawableById("header_Data");
+    	string = mSport.formatTime(mSport.activityTime[SPORT_FINISH]);
+    	headerData.setText(string);
 
     	var bubble1 = View.findDrawableById("bubble1");
     	bubble1.setColor(Gfx.COLOR_LT_GRAY);
-		bubble1.setText(labels[0]); //change all of these to standard text, add real labels
+		bubble1.setText(labels[0]);
 		var bubble1Data = View.findDrawableById("bubble1_Data");
-		//get this value from activity monitoring functionality
-		string = "45:15";
+		string = mSport.formatTime(mSport.activityTime[SPORT_SWIM]);
 		bubble1Data.setText(string);
 
     	var bubble2 = View.findDrawableById("bubble2");
     	bubble2.setColor(Gfx.COLOR_LT_GRAY);
 		bubble2.setText(labels[1]);
 		var bubble2Data = View.findDrawableById("bubble2_Data");
-		//get this value from activity monitoring functionality
-		string = "2:35";
+		string = mSport.formatTime(mSport.activityTime[SPORT_T1]);
 		bubble2Data.setText(string);
 
     	var bubble3 = View.findDrawableById("bubble3");
     	bubble3.setColor(Gfx.COLOR_LT_GRAY);
 		bubble3.setText(labels[2]);
 		var bubble3Data = View.findDrawableById("bubble3_Data");
-		//get this value from activity monitoring functionality
-		string = "3:02:03";
+		string = mSport.formatTime(mSport.activityTime[SPORT_BIKE]);
 		bubble3Data.setText(string);
 
     	var bubble4 = View.findDrawableById("bubble4");
     	bubble4.setColor(Gfx.COLOR_LT_GRAY);
 		bubble4.setText(labels[3]);
 		var bubble4Data = View.findDrawableById("bubble4_Data");
-		//get this value from activity monitoring functionality
-		string = "1:56";
+		string = mSport.formatTime(mSport.activityTime[SPORT_T2]);
 		bubble4Data.setText(string);
 
     	var bubble5 = View.findDrawableById("bubble5");
     	bubble5.setColor(Gfx.COLOR_LT_GRAY);
 		bubble5.setText(labels[4]);
 		var bubble5Data = View.findDrawableById("bubble5_Data");
-		//get this value from activity monitoring functionality
-		string = "1:33:22";
+		string = mSport.formatTime(mSport.activityTime[SPORT_RUN]);
 		bubble5Data.setText(string);
 
 		lineColor = mSettings.getLineColor(mSport.getSport());

@@ -8,744 +8,747 @@
 <entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="29" pc="268435560" symbol="onUpdate"/>
 <entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="31" pc="268435560" symbol="onUpdate"/>
 <entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="32" pc="268435584" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="34" pc="268435608" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="35" pc="268435632" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="36" pc="268435656" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="37" pc="268435676" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="39" pc="268435700" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="40" pc="268435707" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="42" pc="268435721" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="43" pc="268435745" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="44" pc="268435769" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="45" pc="268435789" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="47" pc="268435813" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="48" pc="268435820" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="50" pc="268435834" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="51" pc="268435858" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="52" pc="268435882" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="53" pc="268435902" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="55" pc="268435926" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="56" pc="268435933" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="58" pc="268435947" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="59" pc="268435971" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="60" pc="268435995" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="61" pc="268436015" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="63" pc="268436039" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="64" pc="268436046" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="66" pc="268436060" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="67" pc="268436084" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="68" pc="268436108" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="69" pc="268436128" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="71" pc="268436152" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="72" pc="268436159" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="74" pc="268436173" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="76" pc="268436215" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="16" pc="268436241" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="17" pc="268436251" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="18" pc="268436261" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="19" pc="268436303" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="20" pc="268436331" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="21" pc="268436362" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="26" pc="268436407" symbol="onLayout"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="27" pc="268436432" symbol="onLayout"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="28" pc="268436457" symbol="onLayout"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="38" pc="268436500" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="39" pc="268436536" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="40" pc="268436536" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="42" pc="268436536" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="43" pc="268436560" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="44" pc="268436580" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="46" pc="268436604" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="47" pc="268436611" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="48" pc="268436662" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="49" pc="268436676" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="51" pc="268436748" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="52" pc="268436772" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="53" pc="268436792" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="54" pc="268436816" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="56" pc="268436833" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="57" pc="268436857" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="58" pc="268436877" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="60" pc="268436901" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="61" pc="268436908" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="62" pc="268436959" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="63" pc="268436973" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="65" pc="268437039" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="66" pc="268437063" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="67" pc="268437083" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="68" pc="268437107" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="70" pc="268437124" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="72" pc="268437166" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="73" pc="268437186" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="74" pc="268437206" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="75" pc="268437217" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="77" pc="268437286" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TwoView.mc" lineNum="78" pc="268437297" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriView.mc" lineNum="11" pc="268437326" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriView.mc" lineNum="12" pc="268437336" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriView.mc" lineNum="17" pc="268437349" symbol="onLayout"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriView.mc" lineNum="28" pc="268437392" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="12" pc="268437418" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="13" pc="268437434" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="14" pc="268437453" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="18" pc="268437492" symbol="clearBorder"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="19" pc="268437512" symbol="clearBorder"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="20" pc="268437528" symbol="clearBorder"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="21" pc="268437549" symbol="clearBorder"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="25" pc="268437570" symbol="clearAnim"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="26" pc="268437580" symbol="clearAnim"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="27" pc="268437590" symbol="clearAnim"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="28" pc="268437606" symbol="clearAnim"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="29" pc="268437627" symbol="clearAnim"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="30" pc="268437645" symbol="clearAnim"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="34" pc="268437689" symbol="getState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="38" pc="268437701" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="39" pc="268437715" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="41" pc="268437725" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="42" pc="268437745" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="43" pc="268437765" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="44" pc="268437775" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="45" pc="268437785" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="46" pc="268437803" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="49" pc="268437867" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="50" pc="268437887" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="51" pc="268437897" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="52" pc="268437907" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="53" pc="268437925" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="56" pc="268437989" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="58" pc="268437995" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="60" pc="268438014" symbol="setState"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="64" pc="268438020" symbol="getSport"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="68" pc="268438032" symbol="setSport"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="69" pc="268438042" symbol="setSport"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="70" pc="268438062" symbol="setSport"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="71" pc="268438082" symbol="setSport"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="73" pc="268438106" symbol="setSport"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="19" pc="268438115" symbol="getLabelText"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="20" pc="268438248" symbol="getLabelText"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="24" pc="268438254" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="25" pc="268438258" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="27" pc="268438266" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="28" pc="268438280" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="29" pc="268438300" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="32" pc="268438354" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="33" pc="268438374" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="36" pc="268438411" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="37" pc="268438431" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="40" pc="268438468" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="41" pc="268438488" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="44" pc="268438525" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="45" pc="268438533" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="46" pc="268438553" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="47" pc="268438573" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="48" pc="268438593" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="49" pc="268438613" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="51" pc="268438636" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="8" pc="268438642" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="12" pc="268438663" symbol="onMenuItem"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="13" pc="268438674" symbol="onMenuItem"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="14" pc="268438700" symbol="onMenuItem"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="17" pc="268438740" symbol="onMenuItem"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="18" pc="268438824" symbol="onMenuItem"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="21" pc="268438859" symbol="onMenuItem"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="22" pc="268438880" symbol="onMenuItem"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="25" pc="268438922" symbol="onMenuItem"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="26" pc="268438943" symbol="onMenuItem"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="28" pc="268438974" symbol="onMenuItem"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="10" pc="268438980" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="11" pc="268438990" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="15" pc="268439003" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="17" pc="268439016" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="18" pc="268439030" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="19" pc="268439051" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="22" pc="268439094" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="23" pc="268439115" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="24" pc="268439128" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="25" pc="268439154" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="27" pc="268439180" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="32" pc="268439254" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="33" pc="268439279" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="35" pc="268439282" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="36" pc="268439296" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="39" pc="268439370" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="42" pc="268439427" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="45" pc="268439484" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="48" pc="268439527" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="7" pc="268439533" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="8" pc="268439551" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="12" pc="268439575" symbol="onResponse"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="13" pc="268439586" symbol="onResponse"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="16" pc="268439610" symbol="onResponse"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="20" pc="268439631" symbol="onResponse"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="36" pc="268439637" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="41" pc="268439658" symbol="onStart"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="42" pc="268439688" symbol="onStart"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="51" pc="268439724" symbol="getInitialView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="16" pc="268439826" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="17" pc="268439836" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="18" pc="268439846" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="19" pc="268439888" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="20" pc="268439916" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="21" pc="268439947" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="26" pc="268439992" symbol="onLayout"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="27" pc="268440017" symbol="onLayout"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="28" pc="268440042" symbol="onLayout"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="38" pc="268440085" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="39" pc="268440121" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="40" pc="268440121" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="42" pc="268440121" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="43" pc="268440145" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="44" pc="268440165" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="46" pc="268440189" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="47" pc="268440196" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="48" pc="268440247" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="49" pc="268440261" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="51" pc="268440333" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="52" pc="268440357" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="53" pc="268440377" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="55" pc="268440401" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="56" pc="268440408" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="57" pc="268440459" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="58" pc="268440473" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="60" pc="268440551" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="61" pc="268440575" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="62" pc="268440595" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="64" pc="268440619" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="65" pc="268440626" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="66" pc="268440677" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="67" pc="268440691" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="69" pc="268440757" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="71" pc="268440776" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="72" pc="268440796" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="73" pc="268440816" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="74" pc="268440827" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="76" pc="268440896" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="77" pc="268440907" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="85" pc="268440936" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="86" pc="268440955" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="88" pc="268440963" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="89" pc="268440977" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="90" pc="268440997" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="93" pc="268441020" symbol="getLineColor"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="11" pc="268441026" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="12" pc="268441036" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="13" pc="268441046" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="17" pc="268441085" symbol="onHold"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="18" pc="268441146" symbol="onHold"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="21" pc="268441231" symbol="onHold"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="22" pc="268441252" symbol="onHold"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="24" pc="268441281" symbol="onHold"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="28" pc="268441287" symbol="onTap"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="29" pc="268441348" symbol="onTap"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="30" pc="268441369" symbol="onTap"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="33" pc="268441398" symbol="onTap"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="35" pc="268441419" symbol="onTap"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="39" pc="268441425" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="41" pc="268441438" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="42" pc="268441456" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="43" pc="268441485" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="46" pc="268441504" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="47" pc="268441525" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="51" pc="268441549" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="52" pc="268441570" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="53" pc="268441599" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="54" pc="268441628" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="56" pc="268441672" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="57" pc="268441685" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="61" pc="268441759" symbol="onKey"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="65" pc="268441765" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="66" pc="268441784" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="68" pc="268441787" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="69" pc="268441801" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="72" pc="268441875" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="75" pc="268441932" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="78" pc="268441989" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="81" pc="268442046" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="82" pc="268442086" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="85" pc="268442129" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="88" pc="268442148" symbol="getNextView"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="17" pc="268442154" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="18" pc="268442164" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="19" pc="268442174" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="20" pc="268442216" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="21" pc="268442244" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="22" pc="268442275" symbol="initialize"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="27" pc="268442320" symbol="onLayout"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="28" pc="268442345" symbol="onLayout"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="29" pc="268442370" symbol="onLayout"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="39" pc="268442413" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="40" pc="268442449" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="41" pc="268442449" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="43" pc="268442449" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="44" pc="268442473" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="45" pc="268442493" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="47" pc="268442517" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="48" pc="268442524" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="49" pc="268442561" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="50" pc="268442575" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="52" pc="268442647" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="53" pc="268442671" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="54" pc="268442691" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="55" pc="268442715" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="56" pc="268442722" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="57" pc="268442753" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="58" pc="268442767" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="60" pc="268442839" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="61" pc="268442863" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="62" pc="268442883" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="64" pc="268442907" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="65" pc="268442914" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="66" pc="268442951" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="67" pc="268442965" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="69" pc="268443031" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="70" pc="268443055" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="71" pc="268443075" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="72" pc="268443099" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="73" pc="268443106" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="74" pc="268443137" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="75" pc="268443151" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="77" pc="268443217" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="79" pc="268443259" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="80" pc="268443279" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="81" pc="268443299" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="82" pc="268443310" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="84" pc="268443379" symbol="onUpdate"/>
-<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="85" pc="268443390" symbol="onUpdate"/>
-<entry filename="Rez" lineNum="40" pc="268443419" symbol="initialize"/>
-<entry filename="Rez" lineNum="41" pc="268443437" symbol="initialize"/>
-<entry filename="Rez" lineNum="41" pc="268443460" symbol="initialize"/>
-<entry filename="Rez" lineNum="42" pc="268443482" symbol="initialize"/>
-<entry filename="Rez" lineNum="52" pc="268443507" symbol="initialize"/>
-<entry filename="Rez" lineNum="53" pc="268443525" symbol="initialize"/>
-<entry filename="Rez" lineNum="53" pc="268443548" symbol="initialize"/>
-<entry filename="Rez" lineNum="54" pc="268443570" symbol="initialize"/>
-<entry filename="Rez" lineNum="69" pc="268443595" symbol="initialize"/>
-<entry filename="Rez" lineNum="73" pc="268443622" symbol="draw"/>
-<entry filename="Rez" lineNum="74" pc="268443629" symbol="draw"/>
-<entry filename="Rez" lineNum="75" pc="268443636" symbol="draw"/>
-<entry filename="Rez" lineNum="76" pc="268443649" symbol="draw"/>
-<entry filename="Rez" lineNum="77" pc="268443662" symbol="draw"/>
-<entry filename="Rez" lineNum="81" pc="268443687" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="82" pc="268443723" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="83" pc="268443767" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="85" pc="268443803" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="86" pc="268443835" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="88" pc="268443927" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="89" pc="268443959" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="91" pc="268444051" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="92" pc="268444083" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="94" pc="268444178" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="95" pc="268444210" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="107" pc="268444308" symbol="initialize"/>
-<entry filename="Rez" lineNum="111" pc="268444335" symbol="draw"/>
-<entry filename="Rez" lineNum="112" pc="268444342" symbol="draw"/>
-<entry filename="Rez" lineNum="113" pc="268444349" symbol="draw"/>
-<entry filename="Rez" lineNum="114" pc="268444362" symbol="draw"/>
-<entry filename="Rez" lineNum="115" pc="268444375" symbol="draw"/>
-<entry filename="Rez" lineNum="120" pc="268444400" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="121" pc="268444436" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="123" pc="268444555" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="124" pc="268444593" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="126" pc="268444644" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="127" pc="268444680" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="129" pc="268444731" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="130" pc="268444769" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="132" pc="268444820" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="133" pc="268444856" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="135" pc="268444907" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="136" pc="268444945" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="138" pc="268444996" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="139" pc="268445032" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="141" pc="268445083" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="142" pc="268445121" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="144" pc="268445172" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="145" pc="268445208" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="147" pc="268445259" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="148" pc="268445297" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="150" pc="268445348" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="151" pc="268445384" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="163" pc="268445438" symbol="initialize"/>
-<entry filename="Rez" lineNum="167" pc="268445465" symbol="draw"/>
-<entry filename="Rez" lineNum="168" pc="268445472" symbol="draw"/>
-<entry filename="Rez" lineNum="169" pc="268445479" symbol="draw"/>
-<entry filename="Rez" lineNum="170" pc="268445492" symbol="draw"/>
-<entry filename="Rez" lineNum="171" pc="268445505" symbol="draw"/>
-<entry filename="Rez" lineNum="176" pc="268445530" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="177" pc="268445568" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="179" pc="268445687" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="180" pc="268445725" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="192" pc="268445847" symbol="initialize"/>
-<entry filename="Rez" lineNum="196" pc="268445874" symbol="draw"/>
-<entry filename="Rez" lineNum="197" pc="268445881" symbol="draw"/>
-<entry filename="Rez" lineNum="198" pc="268445888" symbol="draw"/>
-<entry filename="Rez" lineNum="199" pc="268445901" symbol="draw"/>
-<entry filename="Rez" lineNum="200" pc="268445914" symbol="draw"/>
-<entry filename="Rez" lineNum="205" pc="268445939" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="206" pc="268445975" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="208" pc="268446073" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="209" pc="268446109" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="221" pc="268446210" symbol="initialize"/>
-<entry filename="Rez" lineNum="225" pc="268446237" symbol="draw"/>
-<entry filename="Rez" lineNum="226" pc="268446244" symbol="draw"/>
-<entry filename="Rez" lineNum="227" pc="268446251" symbol="draw"/>
-<entry filename="Rez" lineNum="228" pc="268446264" symbol="draw"/>
-<entry filename="Rez" lineNum="229" pc="268446277" symbol="draw"/>
-<entry filename="Rez" lineNum="233" pc="268446302" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="234" pc="268446338" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="235" pc="268446382" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="237" pc="268446418" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="238" pc="268446454" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="240" pc="268446582" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="241" pc="268446618" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="255" pc="268446749" symbol="evenFields"/>
-<entry filename="Rez" lineNum="256" pc="268446785" symbol="evenFields"/>
-<entry filename="Rez" lineNum="257" pc="268446796" symbol="evenFields"/>
-<entry filename="Rez" lineNum="259" pc="268446812" symbol="evenFields"/>
-<entry filename="Rez" lineNum="260" pc="268446826" symbol="evenFields"/>
-<entry filename="Rez" lineNum="261" pc="268446992" symbol="evenFields"/>
-<entry filename="Rez" lineNum="262" pc="268447006" symbol="evenFields"/>
-<entry filename="Rez" lineNum="263" pc="268447172" symbol="evenFields"/>
-<entry filename="Rez" lineNum="264" pc="268447186" symbol="evenFields"/>
-<entry filename="Rez" lineNum="265" pc="268447352" symbol="evenFields"/>
-<entry filename="Rez" lineNum="266" pc="268447366" symbol="evenFields"/>
-<entry filename="Rez" lineNum="267" pc="268447532" symbol="evenFields"/>
-<entry filename="Rez" lineNum="268" pc="268447546" symbol="evenFields"/>
-<entry filename="Rez" lineNum="269" pc="268447712" symbol="evenFields"/>
-<entry filename="Rez" lineNum="270" pc="268447726" symbol="evenFields"/>
-<entry filename="Rez" lineNum="271" pc="268447892" symbol="evenFields"/>
-<entry filename="Rez" lineNum="272" pc="268447906" symbol="evenFields"/>
-<entry filename="Rez" lineNum="273" pc="268448072" symbol="evenFields"/>
-<entry filename="Rez" lineNum="274" pc="268448086" symbol="evenFields"/>
-<entry filename="Rez" lineNum="275" pc="268448252" symbol="evenFields"/>
-<entry filename="Rez" lineNum="285" pc="268448352" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="286" pc="268448388" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="287" pc="268448399" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="289" pc="268448415" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="290" pc="268448429" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="291" pc="268448595" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="292" pc="268448609" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="293" pc="268448775" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="294" pc="268448789" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="295" pc="268448955" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="296" pc="268448969" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="297" pc="268449135" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="298" pc="268449149" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="299" pc="268449315" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="300" pc="268449329" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="301" pc="268449482" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="302" pc="268449497" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="303" pc="268449549" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="304" pc="268449563" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="305" pc="268449729" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="306" pc="268449743" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="307" pc="268449909" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="308" pc="268449923" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="309" pc="268450089" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="310" pc="268450103" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="311" pc="268450269" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="312" pc="268450283" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="313" pc="268450449" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="314" pc="268450463" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="315" pc="268450616" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="316" pc="268450631" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="317" pc="268450683" symbol="finishBubble"/>
-<entry filename="Rez" lineNum="327" pc="268450823" symbol="initialLayout"/>
-<entry filename="Rez" lineNum="328" pc="268450837" symbol="initialLayout"/>
-<entry filename="Rez" lineNum="329" pc="268450977" symbol="initialLayout"/>
-<entry filename="Rez" lineNum="330" pc="268450992" symbol="initialLayout"/>
-<entry filename="Rez" lineNum="331" pc="268451044" symbol="initialLayout"/>
-<entry filename="Rez" lineNum="341" pc="268451064" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="342" pc="268451078" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="343" pc="268451218" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="344" pc="268451233" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="345" pc="268451285" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="355" pc="268451305" symbol="threeFields"/>
-<entry filename="Rez" lineNum="356" pc="268451341" symbol="threeFields"/>
-<entry filename="Rez" lineNum="357" pc="268451352" symbol="threeFields"/>
-<entry filename="Rez" lineNum="359" pc="268451368" symbol="threeFields"/>
-<entry filename="Rez" lineNum="360" pc="268451404" symbol="threeFields"/>
-<entry filename="Rez" lineNum="361" pc="268451415" symbol="threeFields"/>
-<entry filename="Rez" lineNum="363" pc="268451431" symbol="threeFields"/>
-<entry filename="Rez" lineNum="364" pc="268451445" symbol="threeFields"/>
-<entry filename="Rez" lineNum="365" pc="268451611" symbol="threeFields"/>
-<entry filename="Rez" lineNum="366" pc="268451625" symbol="threeFields"/>
-<entry filename="Rez" lineNum="367" pc="268451791" symbol="threeFields"/>
-<entry filename="Rez" lineNum="368" pc="268451805" symbol="threeFields"/>
-<entry filename="Rez" lineNum="369" pc="268451971" symbol="threeFields"/>
-<entry filename="Rez" lineNum="370" pc="268451985" symbol="threeFields"/>
-<entry filename="Rez" lineNum="371" pc="268452151" symbol="threeFields"/>
-<entry filename="Rez" lineNum="372" pc="268452165" symbol="threeFields"/>
-<entry filename="Rez" lineNum="373" pc="268452331" symbol="threeFields"/>
-<entry filename="Rez" lineNum="374" pc="268452345" symbol="threeFields"/>
-<entry filename="Rez" lineNum="375" pc="268452511" symbol="threeFields"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="33" pc="268435608" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="34" pc="268435632" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="35" pc="268435674" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="37" pc="268435688" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="38" pc="268435712" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="39" pc="268435736" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="40" pc="268435756" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="41" pc="268435780" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="42" pc="268435822" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="44" pc="268435836" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="45" pc="268435860" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="46" pc="268435884" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="47" pc="268435904" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="48" pc="268435928" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="49" pc="268435970" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="51" pc="268435984" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="52" pc="268436008" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="53" pc="268436032" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="54" pc="268436052" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="55" pc="268436076" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="56" pc="268436118" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="58" pc="268436132" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="59" pc="268436156" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="60" pc="268436180" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="61" pc="268436200" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="62" pc="268436224" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="63" pc="268436266" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="65" pc="268436280" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="66" pc="268436304" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="67" pc="268436328" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="68" pc="268436348" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="69" pc="268436372" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="70" pc="268436414" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="72" pc="268436428" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\finishBubbleView.mc" lineNum="74" pc="268436470" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriView.mc" lineNum="11" pc="268436496" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriView.mc" lineNum="12" pc="268436506" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriView.mc" lineNum="17" pc="268436519" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriView.mc" lineNum="28" pc="268436562" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="20" pc="268436588" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="21" pc="268436604" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="22" pc="268436623" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="26" pc="268436662" symbol="clearBorder"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="27" pc="268436682" symbol="clearBorder"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="28" pc="268436698" symbol="clearBorder"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="32" pc="268436719" symbol="clearAnim"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="33" pc="268436729" symbol="clearAnim"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="34" pc="268436739" symbol="clearAnim"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="35" pc="268436755" symbol="clearAnim"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="36" pc="268436773" symbol="clearAnim"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="40" pc="268436817" symbol="getState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="44" pc="268436829" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="45" pc="268436843" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="46" pc="268436853" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="47" pc="268436870" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="48" pc="268436883" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="49" pc="268436945" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="52" pc="268436969" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="53" pc="268436989" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="54" pc="268437009" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="55" pc="268437019" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="56" pc="268437029" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="57" pc="268437047" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="58" pc="268437088" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="59" pc="268437101" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="63" pc="268437145" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="64" pc="268437165" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="65" pc="268437175" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="66" pc="268437185" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="67" pc="268437203" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="68" pc="268437244" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="69" pc="268437257" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="73" pc="268437301" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="75" pc="268437307" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="77" pc="268437326" symbol="setState"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="81" pc="268437332" symbol="getSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="85" pc="268437344" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="86" pc="268437354" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="87" pc="268437364" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="89" pc="268437383" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="90" pc="268437400" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="91" pc="268437436" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="92" pc="268437455" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="93" pc="268437473" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="94" pc="268437493" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="97" pc="268437578" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="100" pc="268437663" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="103" pc="268437748" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="106" pc="268437833" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="109" pc="268437918" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="110" pc="268437937" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="111" pc="268437955" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="112" pc="268437973" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="113" pc="268437993" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="114" pc="268438021" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="116" pc="268438027" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="119" pc="268438051" symbol="setSport"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="123" pc="268438057" symbol="setPosition"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="124" pc="268438067" symbol="setPosition"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="128" pc="268438086" symbol="setSnsr"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="129" pc="268438096" symbol="setSnsr"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="133" pc="268438115" symbol="formatTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="134" pc="268438122" symbol="formatTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="135" pc="268438138" symbol="formatTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="136" pc="268438154" symbol="formatTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="137" pc="268438164" symbol="formatTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="138" pc="268438175" symbol="formatTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="141" pc="268438265" symbol="formatTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="145" pc="268438345" symbol="formatTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="150" pc="268438354" symbol="getTotalTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="151" pc="268438361" symbol="getTotalTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="152" pc="268438397" symbol="getTotalTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="153" pc="268438413" symbol="getTotalTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="156" pc="268438445" symbol="getTotalTime"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="160" pc="268438460" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="161" pc="268438479" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="163" pc="268438482" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="164" pc="268438496" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="167" pc="268438520" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="168" pc="268438533" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="171" pc="268438560" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="175" pc="268438584" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="176" pc="268438597" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="179" pc="268438621" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="183" pc="268438645" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="186" pc="268438669" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="187" pc="268438688" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="190" pc="268438721" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="194" pc="268438745" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="195" pc="268438758" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="198" pc="268438780" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="202" pc="268438804" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="205" pc="268438828" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="208" pc="268438852" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSport.mc" lineNum="211" pc="268438862" symbol="getData"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="27" pc="268438871" symbol="getLabelText"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="28" pc="268439004" symbol="getLabelText"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="32" pc="268439010" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="33" pc="268439014" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="35" pc="268439022" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="36" pc="268439036" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="37" pc="268439056" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="40" pc="268439110" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="41" pc="268439130" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="44" pc="268439167" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="45" pc="268439187" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="48" pc="268439224" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="49" pc="268439244" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="52" pc="268439281" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="53" pc="268439289" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="54" pc="268439309" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="55" pc="268439329" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="56" pc="268439349" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="57" pc="268439369" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriSettings.mc" lineNum="59" pc="268439392" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="8" pc="268439398" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="12" pc="268439419" symbol="onMenuItem"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="13" pc="268439430" symbol="onMenuItem"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="14" pc="268439456" symbol="onMenuItem"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="17" pc="268439496" symbol="onMenuItem"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="18" pc="268439580" symbol="onMenuItem"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="21" pc="268439615" symbol="onMenuItem"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="22" pc="268439636" symbol="onMenuItem"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="25" pc="268439678" symbol="onMenuItem"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="26" pc="268439699" symbol="onMenuItem"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriMenuDelegate.mc" lineNum="28" pc="268439730" symbol="onMenuItem"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="10" pc="268439736" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="11" pc="268439746" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="15" pc="268439759" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="17" pc="268439772" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="18" pc="268439786" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="19" pc="268439807" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="22" pc="268439850" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="23" pc="268439876" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriInputDelegate.mc" lineNum="25" pc="268439902" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="7" pc="268440012" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="8" pc="268440030" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="12" pc="268440054" symbol="onResponse"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="13" pc="268440065" symbol="onResponse"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="16" pc="268440089" symbol="onResponse"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriCD.mc" lineNum="20" pc="268440110" symbol="onResponse"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="49" pc="268440116" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="54" pc="268440137" symbol="onStart"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="55" pc="268440167" symbol="onStart"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="56" pc="268440197" symbol="onStart"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="57" pc="268440245" symbol="onStart"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="58" pc="268440313" symbol="onStart"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="63" pc="268440348" symbol="onStop"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="67" pc="268440399" symbol="onPosition"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="71" pc="268440422" symbol="onSnsr"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\TriApp.mc" lineNum="76" pc="268440445" symbol="getInitialView"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="16" pc="268440547" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="17" pc="268440557" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="18" pc="268440567" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="19" pc="268440609" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="20" pc="268440637" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="21" pc="268440668" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="26" pc="268440713" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="27" pc="268440738" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="28" pc="268440763" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="38" pc="268440806" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="39" pc="268440842" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="40" pc="268440842" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="42" pc="268440842" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="43" pc="268440866" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="44" pc="268440886" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="46" pc="268440910" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="47" pc="268440917" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="48" pc="268440968" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="49" pc="268440982" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="51" pc="268441054" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="52" pc="268441078" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="53" pc="268441098" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="55" pc="268441122" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="56" pc="268441129" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="57" pc="268441180" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="58" pc="268441194" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="60" pc="268441272" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="61" pc="268441296" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="62" pc="268441316" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="64" pc="268441340" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="65" pc="268441347" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="66" pc="268441398" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="67" pc="268441412" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="69" pc="268441478" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="71" pc="268441497" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="72" pc="268441517" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="73" pc="268441537" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="74" pc="268441548" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="76" pc="268441617" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="77" pc="268441628" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="85" pc="268441657" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="86" pc="268441676" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="88" pc="268441684" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="89" pc="268441698" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="90" pc="268441718" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\ThreeView.mc" lineNum="93" pc="268441741" symbol="getLineColor"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="11" pc="268441747" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="12" pc="268441757" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="13" pc="268441767" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="17" pc="268441806" symbol="onHold"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="18" pc="268441867" symbol="onHold"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="21" pc="268441952" symbol="onHold"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="22" pc="268441973" symbol="onHold"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="24" pc="268442002" symbol="onHold"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="28" pc="268442008" symbol="onTap"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="29" pc="268442069" symbol="onTap"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="30" pc="268442090" symbol="onTap"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="33" pc="268442119" symbol="onTap"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="35" pc="268442140" symbol="onTap"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="39" pc="268442146" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="41" pc="268442159" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="42" pc="268442177" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="43" pc="268442206" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="46" pc="268442225" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="47" pc="268442246" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="51" pc="268442270" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="52" pc="268442299" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="53" pc="268442340" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="54" pc="268442369" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="57" pc="268442476" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\SportInputDelegate.mc" lineNum="61" pc="268442586" symbol="onKey"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="17" pc="268442592" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="18" pc="268442602" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="19" pc="268442612" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="20" pc="268442654" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="21" pc="268442682" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="22" pc="268442713" symbol="initialize"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="27" pc="268442758" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="28" pc="268442783" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="29" pc="268442808" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="39" pc="268442851" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="40" pc="268442887" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="41" pc="268442887" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="43" pc="268442887" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="44" pc="268442911" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="45" pc="268442931" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="47" pc="268442955" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="48" pc="268443012" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="49" pc="268443105" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="52" pc="268443159" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="54" pc="268443196" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="55" pc="268443210" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="57" pc="268443282" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="58" pc="268443306" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="59" pc="268443326" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="60" pc="268443350" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="62" pc="268443407" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="63" pc="268443438" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="64" pc="268443452" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="66" pc="268443524" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="67" pc="268443548" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="68" pc="268443568" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="69" pc="268443592" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="70" pc="268443649" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="71" pc="268443742" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="74" pc="268443796" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="76" pc="268443833" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="77" pc="268443847" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="79" pc="268443913" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="80" pc="268443937" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="81" pc="268443957" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="82" pc="268443981" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="83" pc="268444038" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="84" pc="268444069" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="85" pc="268444083" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="87" pc="268444149" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="89" pc="268444191" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="90" pc="268444211" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="91" pc="268444231" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="92" pc="268444242" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="94" pc="268444311" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\workspace\\Tri\\source\\FourView.mc" lineNum="95" pc="268444322" symbol="onUpdate"/>
+<entry filename="Rez" lineNum="40" pc="268444351" symbol="initialize"/>
+<entry filename="Rez" lineNum="41" pc="268444369" symbol="initialize"/>
+<entry filename="Rez" lineNum="41" pc="268444392" symbol="initialize"/>
+<entry filename="Rez" lineNum="42" pc="268444414" symbol="initialize"/>
+<entry filename="Rez" lineNum="52" pc="268444439" symbol="initialize"/>
+<entry filename="Rez" lineNum="53" pc="268444457" symbol="initialize"/>
+<entry filename="Rez" lineNum="53" pc="268444480" symbol="initialize"/>
+<entry filename="Rez" lineNum="54" pc="268444502" symbol="initialize"/>
+<entry filename="Rez" lineNum="69" pc="268444527" symbol="initialize"/>
+<entry filename="Rez" lineNum="73" pc="268444554" symbol="draw"/>
+<entry filename="Rez" lineNum="74" pc="268444561" symbol="draw"/>
+<entry filename="Rez" lineNum="75" pc="268444568" symbol="draw"/>
+<entry filename="Rez" lineNum="76" pc="268444581" symbol="draw"/>
+<entry filename="Rez" lineNum="77" pc="268444594" symbol="draw"/>
+<entry filename="Rez" lineNum="81" pc="268444619" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="82" pc="268444655" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="83" pc="268444699" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="85" pc="268444735" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="86" pc="268444767" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="88" pc="268444859" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="89" pc="268444891" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="91" pc="268444983" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="92" pc="268445015" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="94" pc="268445110" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="95" pc="268445142" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="107" pc="268445240" symbol="initialize"/>
+<entry filename="Rez" lineNum="111" pc="268445267" symbol="draw"/>
+<entry filename="Rez" lineNum="112" pc="268445274" symbol="draw"/>
+<entry filename="Rez" lineNum="113" pc="268445281" symbol="draw"/>
+<entry filename="Rez" lineNum="114" pc="268445294" symbol="draw"/>
+<entry filename="Rez" lineNum="115" pc="268445307" symbol="draw"/>
+<entry filename="Rez" lineNum="120" pc="268445332" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="121" pc="268445368" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="123" pc="268445487" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="124" pc="268445525" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="126" pc="268445576" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="127" pc="268445612" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="129" pc="268445663" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="130" pc="268445701" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="132" pc="268445752" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="133" pc="268445788" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="135" pc="268445839" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="136" pc="268445877" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="138" pc="268445928" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="139" pc="268445964" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="141" pc="268446015" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="142" pc="268446053" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="144" pc="268446104" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="145" pc="268446140" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="147" pc="268446191" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="148" pc="268446229" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="150" pc="268446280" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="151" pc="268446316" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="163" pc="268446370" symbol="initialize"/>
+<entry filename="Rez" lineNum="167" pc="268446397" symbol="draw"/>
+<entry filename="Rez" lineNum="168" pc="268446404" symbol="draw"/>
+<entry filename="Rez" lineNum="169" pc="268446411" symbol="draw"/>
+<entry filename="Rez" lineNum="170" pc="268446424" symbol="draw"/>
+<entry filename="Rez" lineNum="171" pc="268446437" symbol="draw"/>
+<entry filename="Rez" lineNum="176" pc="268446462" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="177" pc="268446500" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="179" pc="268446619" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="180" pc="268446657" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="192" pc="268446779" symbol="initialize"/>
+<entry filename="Rez" lineNum="196" pc="268446806" symbol="draw"/>
+<entry filename="Rez" lineNum="197" pc="268446813" symbol="draw"/>
+<entry filename="Rez" lineNum="198" pc="268446820" symbol="draw"/>
+<entry filename="Rez" lineNum="199" pc="268446833" symbol="draw"/>
+<entry filename="Rez" lineNum="200" pc="268446846" symbol="draw"/>
+<entry filename="Rez" lineNum="204" pc="268446871" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="205" pc="268446907" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="206" pc="268446951" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="208" pc="268446987" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="209" pc="268447023" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="211" pc="268447151" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="212" pc="268447187" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="226" pc="268447318" symbol="evenFields"/>
+<entry filename="Rez" lineNum="227" pc="268447354" symbol="evenFields"/>
+<entry filename="Rez" lineNum="228" pc="268447365" symbol="evenFields"/>
+<entry filename="Rez" lineNum="230" pc="268447381" symbol="evenFields"/>
+<entry filename="Rez" lineNum="231" pc="268447395" symbol="evenFields"/>
+<entry filename="Rez" lineNum="232" pc="268447561" symbol="evenFields"/>
+<entry filename="Rez" lineNum="233" pc="268447575" symbol="evenFields"/>
+<entry filename="Rez" lineNum="234" pc="268447741" symbol="evenFields"/>
+<entry filename="Rez" lineNum="235" pc="268447755" symbol="evenFields"/>
+<entry filename="Rez" lineNum="236" pc="268447921" symbol="evenFields"/>
+<entry filename="Rez" lineNum="237" pc="268447935" symbol="evenFields"/>
+<entry filename="Rez" lineNum="238" pc="268448101" symbol="evenFields"/>
+<entry filename="Rez" lineNum="239" pc="268448115" symbol="evenFields"/>
+<entry filename="Rez" lineNum="240" pc="268448281" symbol="evenFields"/>
+<entry filename="Rez" lineNum="241" pc="268448295" symbol="evenFields"/>
+<entry filename="Rez" lineNum="242" pc="268448461" symbol="evenFields"/>
+<entry filename="Rez" lineNum="243" pc="268448475" symbol="evenFields"/>
+<entry filename="Rez" lineNum="244" pc="268448641" symbol="evenFields"/>
+<entry filename="Rez" lineNum="245" pc="268448655" symbol="evenFields"/>
+<entry filename="Rez" lineNum="246" pc="268448821" symbol="evenFields"/>
+<entry filename="Rez" lineNum="256" pc="268448921" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="257" pc="268448957" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="258" pc="268448968" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="260" pc="268448984" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="261" pc="268448998" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="262" pc="268449164" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="263" pc="268449178" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="264" pc="268449344" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="265" pc="268449358" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="266" pc="268449524" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="267" pc="268449538" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="268" pc="268449704" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="269" pc="268449718" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="270" pc="268449884" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="271" pc="268449898" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="272" pc="268450051" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="273" pc="268450066" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="274" pc="268450118" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="275" pc="268450132" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="276" pc="268450298" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="277" pc="268450312" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="278" pc="268450478" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="279" pc="268450492" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="280" pc="268450658" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="281" pc="268450672" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="282" pc="268450838" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="283" pc="268450852" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="284" pc="268451018" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="285" pc="268451032" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="286" pc="268451185" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="287" pc="268451200" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="288" pc="268451252" symbol="finishBubble"/>
+<entry filename="Rez" lineNum="298" pc="268451392" symbol="initialLayout"/>
+<entry filename="Rez" lineNum="299" pc="268451406" symbol="initialLayout"/>
+<entry filename="Rez" lineNum="300" pc="268451546" symbol="initialLayout"/>
+<entry filename="Rez" lineNum="301" pc="268451561" symbol="initialLayout"/>
+<entry filename="Rez" lineNum="302" pc="268451613" symbol="initialLayout"/>
+<entry filename="Rez" lineNum="312" pc="268451633" symbol="threeFields"/>
+<entry filename="Rez" lineNum="313" pc="268451669" symbol="threeFields"/>
+<entry filename="Rez" lineNum="314" pc="268451680" symbol="threeFields"/>
+<entry filename="Rez" lineNum="316" pc="268451696" symbol="threeFields"/>
+<entry filename="Rez" lineNum="317" pc="268451732" symbol="threeFields"/>
+<entry filename="Rez" lineNum="318" pc="268451743" symbol="threeFields"/>
+<entry filename="Rez" lineNum="320" pc="268451759" symbol="threeFields"/>
+<entry filename="Rez" lineNum="321" pc="268451773" symbol="threeFields"/>
+<entry filename="Rez" lineNum="322" pc="268451939" symbol="threeFields"/>
+<entry filename="Rez" lineNum="323" pc="268451953" symbol="threeFields"/>
+<entry filename="Rez" lineNum="324" pc="268452119" symbol="threeFields"/>
+<entry filename="Rez" lineNum="325" pc="268452133" symbol="threeFields"/>
+<entry filename="Rez" lineNum="326" pc="268452299" symbol="threeFields"/>
+<entry filename="Rez" lineNum="327" pc="268452313" symbol="threeFields"/>
+<entry filename="Rez" lineNum="328" pc="268452479" symbol="threeFields"/>
+<entry filename="Rez" lineNum="329" pc="268452493" symbol="threeFields"/>
+<entry filename="Rez" lineNum="330" pc="268452659" symbol="threeFields"/>
+<entry filename="Rez" lineNum="331" pc="268452673" symbol="threeFields"/>
+<entry filename="Rez" lineNum="332" pc="268452839" symbol="threeFields"/>
 </pcToLineNum>
 <symbolTable>
+<entry field="true" id="29" symbol="DATA_CADENCE"/>
 <entry field="true" id="8389736" symbol="borderWidth"/>
-<entry field="true" id="62" symbol="middle_"/>
-<entry field="true" id="22" symbol="SPORT_T2"/>
-<entry field="true" id="20" symbol="SPORT_T1"/>
-<entry id="88" symbol="mTimer"/>
-<entry id="46" object="true" symbol="separater3"/>
+<entry field="true" id="31" symbol="DATA_30S_POWER"/>
+<entry field="true" id="68" symbol="middle_"/>
+<entry id="113" method="true" symbol="getData"/>
+<entry field="true" id="21" symbol="SPORT_T2"/>
+<entry field="true" id="19" symbol="SPORT_T1"/>
+<entry id="89" symbol="mTimer"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="41" symbol="playIcon"/>
-<entry id="45" object="true" symbol="separator"/>
-<entry field="true" id="75" symbol="top_left_data"/>
-<entry field="true" id="23" symbol="SPORT_RUN"/>
-<entry field="true" id="34" symbol="mSport"/>
+<entry field="true" id="49" symbol="playIcon"/>
+<entry id="53" object="true" symbol="separator"/>
+<entry field="true" id="81" symbol="top_left_data"/>
+<entry field="true" id="22" symbol="SPORT_RUN"/>
+<entry field="true" id="42" symbol="mSport"/>
 <entry id="8389097" method="true" symbol="onKey"/>
-<entry id="100" symbol="one"/>
-<entry id="97" method="true" symbol="setSport"/>
+<entry id="116" symbol="one"/>
+<entry id="108" method="true" symbol="setSport"/>
+<entry field="true" id="102" symbol="activityTime"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="61" symbol="bubble1_Data"/>
-<entry field="true" id="24" symbol="SPORT_FINISH"/>
+<entry field="true" id="67" symbol="bubble1_Data"/>
+<entry field="true" id="23" symbol="SPORT_FINISH"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="32" object="true" symbol="SportInputDelegate"/>
+<entry id="40" object="true" symbol="SportInputDelegate"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry id="33" object="true" symbol="FourView"/>
-<entry id="84" symbol="image"/>
-<entry id="53" method="true" symbol="MainLayout"/>
-<entry id="83" symbol="drawBorder"/>
-<entry field="true" id="78" symbol="bottom_right"/>
-<entry field="true" id="77" symbol="header"/>
-<entry id="9" object="true" symbol="TwoView"/>
+<entry id="41" object="true" symbol="FourView"/>
+<entry id="92" symbol="image"/>
+<entry id="91" symbol="drawBorder"/>
+<entry field="true" id="84" symbol="bottom_right"/>
+<entry field="true" id="83" symbol="header"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="47" method="true" symbol="drawComplex"/>
-<entry id="15" object="true" symbol="CD"/>
-<entry field="true" id="70" symbol="bubble3_Data"/>
+<entry field="true" id="30" symbol="DATA_10S_POWER"/>
+<entry id="54" method="true" symbol="drawComplex"/>
+<entry id="14" object="true" symbol="CD"/>
+<entry field="true" id="27" symbol="DATA_LAP_TIME"/>
+<entry field="true" id="76" symbol="bubble3_Data"/>
+<entry id="8388638" module="true" symbol="ActivityRecording"/>
+<entry field="true" id="25" symbol="DATA_SWIM_DISTANCE"/>
 <entry id="8389098" method="true" symbol="onTap"/>
-<entry id="14" object="true" symbol="TriInputDelegate"/>
-<entry id="91" symbol="currentSport"/>
+<entry id="13" object="true" symbol="TriInputDelegate"/>
+<entry id="99" symbol="currentSport"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="63" symbol="AppName"/>
-<entry field="true" id="26" symbol="borderLine"/>
-<entry field="true" id="36" symbol="labels"/>
-<entry id="94" method="true" symbol="getState"/>
-<entry field="true" id="55" symbol="top_right"/>
-<entry id="38" method="true" symbol="getLineColor"/>
-<entry id="92" method="true" symbol="clearBorder"/>
-<entry field="true" id="57" symbol="header_Data"/>
-<entry field="true" id="17" symbol="ACTIVITY_RECORD"/>
-<entry field="true" id="18" symbol="ACTIVITY_FINISH"/>
-<entry id="101" symbol="two"/>
-<entry field="true" id="64" symbol="bubble5_Data"/>
-<entry id="85" symbol="drawPlay"/>
+<entry id="97" method="true" symbol="onSnsr"/>
+<entry field="true" id="69" symbol="AppName"/>
+<entry id="111" method="true" symbol="formatTime"/>
+<entry field="true" id="34" symbol="borderLine"/>
+<entry field="true" id="43" symbol="labels"/>
+<entry id="105" method="true" symbol="getState"/>
+<entry field="true" id="61" symbol="top_right"/>
+<entry field="true" id="8388890" symbol="sport"/>
+<entry field="true" id="8388892" symbol="name"/>
+<entry id="46" method="true" symbol="getLineColor"/>
+<entry id="103" method="true" symbol="clearBorder"/>
+<entry field="true" id="63" symbol="header_Data"/>
+<entry field="true" id="16" symbol="ACTIVITY_RECORD"/>
+<entry field="true" id="17" symbol="ACTIVITY_FINISH"/>
+<entry id="117" symbol="two"/>
+<entry field="true" id="70" symbol="bubble5_Data"/>
+<entry id="93" symbol="drawPlay"/>
+<entry id="8388641" module="true" symbol="Math"/>
 <entry id="8389108" method="true" symbol="onResponse"/>
-<entry field="true" id="42" symbol="LauncherIcon"/>
-<entry id="98" symbol="restart"/>
+<entry field="true" id="50" symbol="LauncherIcon"/>
+<entry id="114" symbol="restart"/>
 <entry id="8" object="true" symbol="finishBubbleView"/>
-<entry id="30" object="true" symbol="TriApp"/>
+<entry id="38" object="true" symbol="TriApp"/>
 <entry id="8389569" symbol="mSettings"/>
-<entry id="12" object="true" symbol="TriSettings"/>
+<entry id="11" object="true" symbol="TriSettings"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
-<entry field="true" id="27" symbol="borderHeight"/>
+<entry field="true" id="35" symbol="borderHeight"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
+<entry field="true" id="26" symbol="DATA_ELAPSED_TIME"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="44" object="true" symbol="fiveBubbles"/>
-<entry field="true" id="82" symbol="top_right_data"/>
+<entry id="52" object="true" symbol="fiveBubbles"/>
+<entry field="true" id="88" symbol="top_right_data"/>
 <entry id="8389348" symbol="font"/>
-<entry id="93" method="true" symbol="clearAnim"/>
-<entry id="43" object="true" symbol="border"/>
-<entry field="true" id="71" symbol="bottom_"/>
-<entry field="true" id="19" symbol="SPORT_SWIM"/>
+<entry id="104" method="true" symbol="clearAnim"/>
+<entry id="51" object="true" symbol="border"/>
+<entry field="true" id="77" symbol="bottom_"/>
+<entry field="true" id="18" symbol="SPORT_SWIM"/>
 <entry id="8389347" symbol="color"/>
-<entry id="52" method="true" symbol="initialLayout"/>
-<entry id="95" method="true" symbol="setState"/>
-<entry id="11" object="true" symbol="TriSport"/>
-<entry field="true" id="28" symbol="play"/>
+<entry id="59" method="true" symbol="initialLayout"/>
+<entry field="true" id="24" symbol="DATA_NA"/>
+<entry field="true" id="100" symbol="posnInfo"/>
+<entry id="106" method="true" symbol="setState"/>
+<entry id="10" object="true" symbol="TriSport"/>
+<entry field="true" id="36" symbol="play"/>
+<entry field="true" id="8388651" symbol="session"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
-<entry id="10" object="true" symbol="TriView"/>
-<entry id="31" object="true" symbol="ThreeView"/>
-<entry id="48" object="true" symbol="mainMenu"/>
+<entry id="9" object="true" symbol="TriView"/>
+<entry field="true" id="32" symbol="DATA_LAP_PACE"/>
+<entry id="39" object="true" symbol="ThreeView"/>
+<entry id="55" object="true" symbol="mainMenu"/>
 <entry id="8389339" symbol="second"/>
-<entry field="true" id="66" symbol="bubble2_Data"/>
-<entry field="true" id="65" symbol="top_left"/>
-<entry id="86" symbol="drawStop"/>
-<entry id="13" object="true" symbol="TriMenuDelegate"/>
-<entry id="40" module="true" symbol="Layouts"/>
-<entry id="49" object="true" symbol="secondMenu"/>
-<entry field="true" id="81" symbol="prompt"/>
-<entry field="true" id="16" symbol="ACTIVITY_STOP"/>
+<entry field="true" id="72" symbol="bubble2_Data"/>
+<entry field="true" id="28" symbol="DATA_HR"/>
+<entry field="true" id="71" symbol="top_left"/>
+<entry id="94" symbol="drawStop"/>
+<entry id="12" object="true" symbol="TriMenuDelegate"/>
+<entry id="96" method="true" symbol="onPosition"/>
+<entry field="true" id="8388911" symbol="distance"/>
+<entry id="48" module="true" symbol="Layouts"/>
+<entry id="56" object="true" symbol="secondMenu"/>
+<entry field="true" id="87" symbol="prompt"/>
+<entry field="true" id="15" symbol="ACTIVITY_STOP"/>
+<entry id="112" method="true" symbol="getTotalTime"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="74" symbol="bubble5"/>
-<entry field="true" id="73" symbol="bubble4"/>
-<entry field="true" id="80" symbol="bubble3"/>
-<entry field="true" id="79" symbol="bubble2"/>
-<entry field="true" id="76" symbol="bubble1"/>
-<entry field="true" id="69" symbol="bottom_left"/>
-<entry field="true" id="58" symbol="bottom_left_data"/>
-<entry field="true" id="29" symbol="t1"/>
-<entry field="true" id="72" symbol="middle_Data"/>
-<entry field="true" id="67" symbol="top_"/>
-<entry id="51" method="true" symbol="finishBubble"/>
+<entry field="true" id="44" symbol="dataPicker"/>
+<entry field="true" id="80" symbol="bubble5"/>
+<entry field="true" id="79" symbol="bubble4"/>
+<entry id="110" method="true" symbol="setSnsr"/>
+<entry field="true" id="86" symbol="bubble3"/>
+<entry field="true" id="85" symbol="bubble2"/>
+<entry field="true" id="82" symbol="bubble1"/>
+<entry field="true" id="75" symbol="bottom_left"/>
+<entry field="true" id="64" symbol="bottom_left_data"/>
+<entry field="true" id="37" symbol="t1"/>
+<entry field="true" id="78" symbol="middle_Data"/>
+<entry field="true" id="73" symbol="top_"/>
+<entry id="58" method="true" symbol="finishBubble"/>
 <entry id="8389099" method="true" symbol="onHold"/>
-<entry id="37" method="true" symbol="getLabelText"/>
-<entry id="96" method="true" symbol="getSport"/>
-<entry field="true" id="25" symbol="lineColor"/>
+<entry id="45" method="true" symbol="getLabelText"/>
+<entry id="107" method="true" symbol="getSport"/>
+<entry field="true" id="33" symbol="lineColor"/>
 <entry id="8389346" symbol="text"/>
-<entry field="true" id="87" symbol="TEXT_MARGIN"/>
+<entry id="109" method="true" symbol="setPosition"/>
+<entry field="true" id="90" symbol="TEXT_MARGIN"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry field="true" id="68" symbol="top_Data"/>
-<entry id="54" method="true" symbol="threeFields"/>
-<entry field="true" id="59" symbol="bubble4_Data"/>
-<entry id="39" module="true" symbol="Menus"/>
-<entry field="true" id="89" symbol="BORDER_PADDING"/>
-<entry id="35" method="true" symbol="getNextView"/>
-<entry field="true" id="60" symbol="bottom_right_data"/>
-<entry id="90" symbol="currentState"/>
-<entry field="true" id="21" symbol="SPORT_BIKE"/>
-<entry field="true" id="56" symbol="bottom_Data"/>
+<entry field="true" id="74" symbol="top_Data"/>
+<entry id="60" method="true" symbol="threeFields"/>
+<entry field="true" id="65" symbol="bubble4_Data"/>
+<entry id="47" module="true" symbol="Menus"/>
+<entry field="true" id="95" symbol="BORDER_PADDING"/>
+<entry field="true" id="66" symbol="bottom_right_data"/>
+<entry id="98" symbol="currentState"/>
+<entry field="true" id="20" symbol="SPORT_BIKE"/>
+<entry field="true" id="62" symbol="bottom_Data"/>
 <entry field="true" id="8388699" method="true" object="true" symbol="stop"/>
 <entry id="8388772" module="true" symbol="Fonts"/>
-<entry id="50" method="true" symbol="evenFields"/>
+<entry field="true" id="101" symbol="snsrInfo"/>
+<entry id="57" method="true" symbol="evenFields"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436235" name="bubble4Data" stackId="12" startPc="268435524"/>
-<entry endPc="268436235" name="bubble5" stackId="13" startPc="268435524"/>
-<entry endPc="268436235" name="bubble4" stackId="11" startPc="268435524"/>
-<entry endPc="268436235" name="bubble3Data" stackId="10" startPc="268435524"/>
-<entry endPc="268436235" name="bubble3" stackId="9" startPc="268435524"/>
-<entry endPc="268436235" name="bubble2Data" stackId="8" startPc="268435524"/>
-<entry endPc="268436235" name="bubble2" stackId="7" startPc="268435524"/>
-<entry endPc="268436235" name="bubble1" stackId="5" startPc="268435524"/>
-<entry endPc="268436235" name="bubble1Data" stackId="6" startPc="268435524"/>
-<entry endPc="268436235" name="header" stackId="4" startPc="268435524"/>
-<entry endPc="268436235" name="labels" stackId="2" startPc="268435524"/>
-<entry endPc="268436235" name="string" stackId="3" startPc="268435524"/>
-<entry endPc="268436235" name="bubble5Data" stackId="14" startPc="268435524"/>
-<entry endPc="268437320" name="topRight" stackId="7" startPc="268436500"/>
-<entry endPc="268437320" name="labels" stackId="2" startPc="268436500"/>
-<entry endPc="268437320" name="hValue" stackId="4" startPc="268436500"/>
-<entry endPc="268437320" name="string" stackId="3" startPc="268436500"/>
-<entry endPc="268437320" name="bottomRight" stackId="11" startPc="268436500"/>
-<entry endPc="268437320" name="bottomLeft" stackId="9" startPc="268436500"/>
-<entry endPc="268437320" name="topRightData" stackId="8" startPc="268436500"/>
-<entry endPc="268437320" name="topLeft" stackId="5" startPc="268436500"/>
-<entry endPc="268437320" name="topLeftData" stackId="6" startPc="268436500"/>
-<entry endPc="268437320" name="bottomRightData" stackId="12" startPc="268436500"/>
-<entry endPc="268437320" name="bottomLeftData" stackId="10" startPc="268436500"/>
-<entry endPc="268438251" name="label" stackId="2" startPc="268438115"/>
-<entry endPc="268438639" name="line" stackId="3" startPc="268438254"/>
-<entry endPc="268438639" name="mSport" stackId="2" startPc="268438254"/>
-<entry endPc="268439248" name="view" stackId="3" startPc="268439094"/>
-<entry endPc="268439251" name="key" stackId="2" startPc="268439003"/>
-<entry endPc="268439530" name="view" stackId="2" startPc="268439254"/>
-<entry endPc="268439530" name="nextSport" stackId="1" startPc="268439254"/>
-<entry endPc="268440930" name="bottom_" stackId="9" startPc="268440085"/>
-<entry endPc="268440930" name="middle_Data" stackId="8" startPc="268440085"/>
-<entry endPc="268440930" name="top_Data" stackId="6" startPc="268440085"/>
-<entry endPc="268440930" name="bottom_Data" stackId="10" startPc="268440085"/>
-<entry endPc="268440930" name="labels" stackId="2" startPc="268440085"/>
-<entry endPc="268440930" name="hValue" stackId="4" startPc="268440085"/>
-<entry endPc="268440930" name="string" stackId="3" startPc="268440085"/>
-<entry endPc="268440930" name="top_" stackId="5" startPc="268440085"/>
-<entry endPc="268440930" name="middle_" stackId="7" startPc="268440085"/>
-<entry endPc="268441023" name="line" stackId="2" startPc="268440936"/>
-<entry endPc="268441023" name="sport" stackId="1" startPc="268440936"/>
-<entry endPc="268441753" name="view" stackId="3" startPc="268441599"/>
-<entry endPc="268441762" name="key" stackId="2" startPc="268441425"/>
-<entry endPc="268442151" name="view" stackId="2" startPc="268441765"/>
-<entry endPc="268442151" name="nextSport" stackId="1" startPc="268441765"/>
-<entry endPc="268443413" name="topRight" stackId="7" startPc="268442413"/>
-<entry endPc="268443413" name="labels" stackId="2" startPc="268442413"/>
-<entry endPc="268443413" name="hValue" stackId="4" startPc="268442413"/>
-<entry endPc="268443413" name="string" stackId="3" startPc="268442413"/>
-<entry endPc="268443413" name="bottomRight" stackId="11" startPc="268442413"/>
-<entry endPc="268443413" name="bottomLeft" stackId="9" startPc="268442413"/>
-<entry endPc="268443413" name="topRightData" stackId="8" startPc="268442413"/>
-<entry endPc="268443413" name="topLeft" stackId="5" startPc="268442413"/>
-<entry endPc="268443413" name="topLeftData" stackId="6" startPc="268442413"/>
-<entry endPc="268443413" name="bottomRightData" stackId="12" startPc="268442413"/>
-<entry endPc="268443413" name="bottomLeftData" stackId="10" startPc="268442413"/>
-<entry endPc="268443684" name="pWidth" stackId="4" startPc="268443622"/>
-<entry endPc="268443684" name="pY" stackId="3" startPc="268443622"/>
-<entry endPc="268443684" name="pX" stackId="2" startPc="268443622"/>
-<entry endPc="268443684" name="pHeight" stackId="5" startPc="268443622"/>
-<entry endPc="268444397" name="pWidth" stackId="4" startPc="268444335"/>
-<entry endPc="268444397" name="pY" stackId="3" startPc="268444335"/>
-<entry endPc="268444397" name="pX" stackId="2" startPc="268444335"/>
-<entry endPc="268444397" name="pHeight" stackId="5" startPc="268444335"/>
-<entry endPc="268445527" name="pWidth" stackId="4" startPc="268445465"/>
-<entry endPc="268445527" name="pY" stackId="3" startPc="268445465"/>
-<entry endPc="268445527" name="pX" stackId="2" startPc="268445465"/>
-<entry endPc="268445527" name="pHeight" stackId="5" startPc="268445465"/>
-<entry endPc="268445936" name="pWidth" stackId="4" startPc="268445874"/>
-<entry endPc="268445936" name="pY" stackId="3" startPc="268445874"/>
-<entry endPc="268445936" name="pX" stackId="2" startPc="268445874"/>
-<entry endPc="268445936" name="pHeight" stackId="5" startPc="268445874"/>
-<entry endPc="268446299" name="pWidth" stackId="4" startPc="268446237"/>
-<entry endPc="268446299" name="pY" stackId="3" startPc="268446237"/>
-<entry endPc="268446299" name="pX" stackId="2" startPc="268446237"/>
-<entry endPc="268446299" name="pHeight" stackId="5" startPc="268446237"/>
-<entry endPc="268448349" name="rez_cmp_local_label_bottomRightData_font" stackId="17" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_topLeftData" stackId="12" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_topLeftData_font" stackId="11" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_drawable_reference_separator" stackId="2" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_topLeft" stackId="4" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_topRight_font" stackId="5" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_bottomLeft" stackId="8" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_bottomLeftData" stackId="16" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_topLeft_font" stackId="3" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_bottomRightData" stackId="18" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_bottomLeftData_font" stackId="15" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_topRightData" stackId="14" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_bottomRight" stackId="10" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_topRightData_font" stackId="13" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_bottomRight_font" stackId="9" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_bottomLeft_font" stackId="7" startPc="268446749"/>
-<entry endPc="268448349" name="rez_cmp_local_label_topRight" stackId="6" startPc="268446749"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble2_font" stackId="5" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble5_Data" stackId="25" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble2_Data_font" stackId="18" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble3_font" stackId="7" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble3_Data_font" stackId="20" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble4_font" stackId="9" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_header_Data" stackId="27" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble5_font" stackId="11" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble4_Data_font" stackId="22" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_header_fontHeight" stackId="15" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_header" stackId="14" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble1_Data" stackId="17" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble5_Data_font" stackId="24" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble2_Data" stackId="19" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_drawable_reference_fiveBubbles" stackId="2" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_header_font" stackId="13" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble5" stackId="12" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_header_Data_font" stackId="26" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble3_Data" stackId="21" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble4" stackId="10" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble3" stackId="8" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_header_Data_fontHeight" stackId="28" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble2" stackId="6" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble1" stackId="4" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble1_font" stackId="3" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble1_Data_font" stackId="16" startPc="268448352"/>
-<entry endPc="268450820" name="rez_cmp_local_label_bubble4_Data" stackId="23" startPc="268448352"/>
-<entry endPc="268451061" name="rez_cmp_local_label_NQGIIVI08D" stackId="3" startPc="268450823"/>
-<entry endPc="268451061" name="rez_cmp_local_label_NQGIIVI08D_font" stackId="2" startPc="268450823"/>
-<entry endPc="268451061" name="rez_cmp_local_label_NQGIIVI08D_fontHeight" stackId="4" startPc="268450823"/>
-<entry endPc="268451302" name="rez_cmp_local_label_EV2OJXTUZO" stackId="3" startPc="268451064"/>
-<entry endPc="268451302" name="rez_cmp_local_label_EV2OJXTUZO_fontHeight" stackId="4" startPc="268451064"/>
-<entry endPc="268451302" name="rez_cmp_local_label_EV2OJXTUZO_font" stackId="2" startPc="268451064"/>
-<entry endPc="268452598" name="rez_cmp_local_label_bottom_Data_font" stackId="14" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_drawable_reference_border" stackId="2" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_drawable_reference_separater3" stackId="3" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_label_middle_" stackId="7" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_label_middle_Data" stackId="13" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_label_middle_Data_font" stackId="12" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_label_top_Data_font" stackId="10" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_label_top__font" stackId="4" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_label_top_" stackId="5" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_label_bottom_" stackId="9" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_label_bottom_Data" stackId="15" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_label_top_Data" stackId="11" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_label_bottom__font" stackId="8" startPc="268451305"/>
-<entry endPc="268452598" name="rez_cmp_local_label_middle__font" stackId="6" startPc="268451305"/>
+<entry endPc="268436490" name="bubble4Data" stackId="13" startPc="268435524"/>
+<entry endPc="268436490" name="bubble5" stackId="14" startPc="268435524"/>
+<entry endPc="268436490" name="bubble4" stackId="12" startPc="268435524"/>
+<entry endPc="268436490" name="bubble3Data" stackId="11" startPc="268435524"/>
+<entry endPc="268436490" name="bubble3" stackId="10" startPc="268435524"/>
+<entry endPc="268436490" name="bubble2Data" stackId="9" startPc="268435524"/>
+<entry endPc="268436490" name="bubble2" stackId="8" startPc="268435524"/>
+<entry endPc="268436490" name="bubble1" stackId="6" startPc="268435524"/>
+<entry endPc="268436490" name="bubble1Data" stackId="7" startPc="268435524"/>
+<entry endPc="268436490" name="header" stackId="4" startPc="268435524"/>
+<entry endPc="268436490" name="labels" stackId="2" startPc="268435524"/>
+<entry endPc="268436490" name="string" stackId="3" startPc="268435524"/>
+<entry endPc="268436490" name="bubble5Data" stackId="15" startPc="268435524"/>
+<entry endPc="268436490" name="headerData" stackId="5" startPc="268435524"/>
+<entry endPc="268438054" name="previousSport" stackId="2" startPc="268437344"/>
+<entry endPc="268438054" name="actInfo" stackId="3" startPc="268437344"/>
+<entry endPc="268438342" name="hours" stackId="4" startPc="268438122"/>
+<entry endPc="268438342" name="minutes" stackId="3" startPc="268438122"/>
+<entry endPc="268438342" name="seconds" stackId="2" startPc="268438122"/>
+<entry endPc="268438445" name="i" stackId="2" startPc="268438397"/>
+<entry endPc="268438457" name="totalTime" stackId="1" startPc="268438354"/>
+<entry endPc="268438865" name="fieldData" stackId="3" startPc="268438460"/>
+<entry endPc="268438865" name="actInfo" stackId="2" startPc="268438460"/>
+<entry endPc="268439007" name="label" stackId="2" startPc="268438871"/>
+<entry endPc="268439395" name="line" stackId="3" startPc="268439010"/>
+<entry endPc="268439395" name="mSport" stackId="2" startPc="268439010"/>
+<entry endPc="268440009" name="key" stackId="2" startPc="268439759"/>
+<entry endPc="268441651" name="bottom_" stackId="9" startPc="268440806"/>
+<entry endPc="268441651" name="middle_Data" stackId="8" startPc="268440806"/>
+<entry endPc="268441651" name="top_Data" stackId="6" startPc="268440806"/>
+<entry endPc="268441651" name="bottom_Data" stackId="10" startPc="268440806"/>
+<entry endPc="268441651" name="labels" stackId="2" startPc="268440806"/>
+<entry endPc="268441651" name="hValue" stackId="4" startPc="268440806"/>
+<entry endPc="268441651" name="string" stackId="3" startPc="268440806"/>
+<entry endPc="268441651" name="top_" stackId="5" startPc="268440806"/>
+<entry endPc="268441651" name="middle_" stackId="7" startPc="268440806"/>
+<entry endPc="268441744" name="line" stackId="2" startPc="268441657"/>
+<entry endPc="268441744" name="sport" stackId="1" startPc="268441657"/>
+<entry endPc="268442589" name="key" stackId="2" startPc="268442146"/>
+<entry endPc="268444345" name="topRight" stackId="7" startPc="268442851"/>
+<entry endPc="268444345" name="labels" stackId="2" startPc="268442851"/>
+<entry endPc="268444345" name="hValue" stackId="4" startPc="268442851"/>
+<entry endPc="268444345" name="string" stackId="3" startPc="268442851"/>
+<entry endPc="268444345" name="bottomRight" stackId="11" startPc="268442851"/>
+<entry endPc="268444345" name="bottomLeft" stackId="9" startPc="268442851"/>
+<entry endPc="268444345" name="topRightData" stackId="8" startPc="268442851"/>
+<entry endPc="268444345" name="topLeft" stackId="5" startPc="268442851"/>
+<entry endPc="268444345" name="topLeftData" stackId="6" startPc="268442851"/>
+<entry endPc="268444345" name="bottomRightData" stackId="12" startPc="268442851"/>
+<entry endPc="268444345" name="bottomLeftData" stackId="10" startPc="268442851"/>
+<entry endPc="268444616" name="pWidth" stackId="4" startPc="268444554"/>
+<entry endPc="268444616" name="pY" stackId="3" startPc="268444554"/>
+<entry endPc="268444616" name="pX" stackId="2" startPc="268444554"/>
+<entry endPc="268444616" name="pHeight" stackId="5" startPc="268444554"/>
+<entry endPc="268445329" name="pWidth" stackId="4" startPc="268445267"/>
+<entry endPc="268445329" name="pY" stackId="3" startPc="268445267"/>
+<entry endPc="268445329" name="pX" stackId="2" startPc="268445267"/>
+<entry endPc="268445329" name="pHeight" stackId="5" startPc="268445267"/>
+<entry endPc="268446459" name="pWidth" stackId="4" startPc="268446397"/>
+<entry endPc="268446459" name="pY" stackId="3" startPc="268446397"/>
+<entry endPc="268446459" name="pX" stackId="2" startPc="268446397"/>
+<entry endPc="268446459" name="pHeight" stackId="5" startPc="268446397"/>
+<entry endPc="268446868" name="pWidth" stackId="4" startPc="268446806"/>
+<entry endPc="268446868" name="pY" stackId="3" startPc="268446806"/>
+<entry endPc="268446868" name="pX" stackId="2" startPc="268446806"/>
+<entry endPc="268446868" name="pHeight" stackId="5" startPc="268446806"/>
+<entry endPc="268448918" name="rez_cmp_local_label_bottomRightData_font" stackId="17" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_topLeftData" stackId="12" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_topLeftData_font" stackId="11" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_drawable_reference_separator" stackId="2" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_topLeft" stackId="4" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_topRight_font" stackId="5" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_bottomLeft" stackId="8" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_bottomLeftData" stackId="16" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_topLeft_font" stackId="3" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_bottomRightData" stackId="18" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_bottomLeftData_font" stackId="15" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_topRightData" stackId="14" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_bottomRight" stackId="10" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_topRightData_font" stackId="13" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_bottomRight_font" stackId="9" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_bottomLeft_font" stackId="7" startPc="268447318"/>
+<entry endPc="268448918" name="rez_cmp_local_label_topRight" stackId="6" startPc="268447318"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble2_font" stackId="5" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble5_Data" stackId="25" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble2_Data_font" stackId="18" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble3_font" stackId="7" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble3_Data_font" stackId="20" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble4_font" stackId="9" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_header_Data" stackId="27" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble5_font" stackId="11" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble4_Data_font" stackId="22" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_header_fontHeight" stackId="15" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_header" stackId="14" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble1_Data" stackId="17" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble5_Data_font" stackId="24" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble2_Data" stackId="19" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_drawable_reference_fiveBubbles" stackId="2" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_header_font" stackId="13" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble5" stackId="12" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_header_Data_font" stackId="26" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble3_Data" stackId="21" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble4" stackId="10" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble3" stackId="8" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_header_Data_fontHeight" stackId="28" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble2" stackId="6" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble1" stackId="4" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble1_font" stackId="3" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble1_Data_font" stackId="16" startPc="268448921"/>
+<entry endPc="268451389" name="rez_cmp_local_label_bubble4_Data" stackId="23" startPc="268448921"/>
+<entry endPc="268451630" name="rez_cmp_local_label_4UGTRYQBR5_fontHeight" stackId="4" startPc="268451392"/>
+<entry endPc="268451630" name="rez_cmp_local_label_4UGTRYQBR5_font" stackId="2" startPc="268451392"/>
+<entry endPc="268451630" name="rez_cmp_local_label_4UGTRYQBR5" stackId="3" startPc="268451392"/>
+<entry endPc="268452926" name="rez_cmp_local_label_bottom_Data_font" stackId="14" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_drawable_reference_border" stackId="2" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_drawable_reference_separater3" stackId="3" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_label_middle_" stackId="7" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_label_middle_Data" stackId="13" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_label_middle_Data_font" stackId="12" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_label_top_Data_font" stackId="10" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_label_top__font" stackId="4" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_label_top_" stackId="5" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_label_bottom_" stackId="9" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_label_bottom_Data" stackId="15" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_label_top_Data" stackId="11" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_label_bottom__font" stackId="8" startPc="268451633"/>
+<entry endPc="268452926" name="rez_cmp_local_label_middle__font" stackId="6" startPc="268451633"/>
 </localVars>
 <annotations/>
 <functions>
@@ -766,25 +769,6 @@
 <documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
 </functionEntry>
 <functionEntry name="onHide" parent="finishBubbleView">
-<documentation/>
-</functionEntry>
-<functionEntry name="initialize" parent="TwoView">
-<param id="sport"/>
-<param id="settings"/>
-<documentation/>
-</functionEntry>
-<functionEntry name="onLayout" parent="TwoView">
-<param id="dc"/>
-<documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry name="onShow" parent="TwoView">
-<documentation><![CDATA[<div class="description"> Called when this View is brought to the foreground. Restore<br/> the state of this View and prepare it to be shown. This includes<br/> loading resources into memory.<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry name="onUpdate" parent="TwoView">
-<param id="dc"/>
-<documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry name="onHide" parent="TwoView">
 <documentation/>
 </functionEntry>
 <functionEntry name="initialize" parent="TriView">
@@ -829,6 +813,25 @@
 <param id="sport"/>
 <documentation/>
 </functionEntry>
+<functionEntry name="setPosition" parent="TriSport">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="setSnsr" parent="TriSport">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="formatTime" parent="TriSport">
+<param id="ms"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="getTotalTime" parent="TriSport">
+<documentation/>
+</functionEntry>
+<functionEntry name="getData" parent="TriSport">
+<param id="label"/>
+<documentation/>
+</functionEntry>
 <functionEntry name="initialize" parent="TriSettings">
 <documentation/>
 </functionEntry>
@@ -856,9 +859,6 @@
 <param id="evt"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="getNextView" parent="TriInputDelegate">
-<documentation/>
-</functionEntry>
 <functionEntry name="initialize" parent="CD">
 <documentation/>
 </functionEntry>
@@ -874,6 +874,14 @@
 </functionEntry>
 <functionEntry name="onStop" parent="TriApp">
 <documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onPosition" parent="TriApp">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onSnsr" parent="TriApp">
+<param id="sensor_info"/>
+<documentation/>
 </functionEntry>
 <functionEntry name="getInitialView" parent="TriApp">
 <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
@@ -915,9 +923,6 @@
 </functionEntry>
 <functionEntry name="onKey" parent="SportInputDelegate">
 <param id="evt"/>
-<documentation/>
-</functionEntry>
-<functionEntry name="getNextView" parent="SportInputDelegate">
 <documentation/>
 </functionEntry>
 <functionEntry name="initialize" parent="FourView">
@@ -990,21 +995,6 @@
 <param id="pHeight"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="initialize" parent="separater3">
-<documentation/>
-</functionEntry>
-<functionEntry name="draw" parent="separater3">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry name="drawComplex" parent="separater3">
-<param id="dc"/>
-<param id="pX"/>
-<param id="pY"/>
-<param id="pWidth"/>
-<param id="pHeight"/>
-<documentation/>
-</functionEntry>
 <functionEntry name="initialize" parent="stop">
 <documentation/>
 </functionEntry>
@@ -1029,10 +1019,6 @@
 <documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
 </functionEntry>
 <functionEntry name="initialLayout" parent="Layouts">
-<param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry name="MainLayout" parent="Layouts">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
 </functionEntry>

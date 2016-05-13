@@ -4,12 +4,20 @@ using Toybox.Graphics as Gfx;
 class TriSettings {
 	//get this from settings data, set it for initial swim data
 	var labels = [
-		["Distance","","Lap Time","",""],
-		["Elapsed Time","","Heart Rate","",""],
-		["10s Power","30s Power","Heart Rate","Cadence",""],
-		["Elapsed Time","","Heart Rate","",""],
-		["Elapsed Time","Lap Pace","Heart Rate","Cadence",""],
-		["Swim","T1","Bike","T2", "Run"]
+		["Distance","","Lap Time","",""], //swim
+		["Elapsed Time","","Heart Rate","",""], //t1
+		["10s Power","30s Power","Heart Rate","Cadence",""], //bike
+		["Elapsed Time","","Heart Rate","",""], //t2
+		["Elapsed Time","Lap Pace","Heart Rate","Cadence",""], //run
+		["Swim","T1","Bike","T2", "Run"] //finish
+	];
+
+	var dataPicker = [
+		[DATA_SWIM_DISTANCE, DATA_NA, DATA_LAP_TIME, DATA_NA], //swim
+		[DATA_ELAPSED_TIME, DATA_NA, DATA_HR, DATA_NA], //T1
+		[DATA_10S_POWER, DATA_30S_POWER, DATA_HR, DATA_CADENCE], //BIKE
+		[DATA_ELAPSED_TIME, DATA_NA, DATA_HR, DATA_NA], //T2
+		[DATA_ELAPSED_TIME, DATA_LAP_PACE, DATA_HR, DATA_CADENCE] //RUN
 	];
 
 	function initialize() {

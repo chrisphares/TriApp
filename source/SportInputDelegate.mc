@@ -48,43 +48,16 @@ class SportInputDelegate extends Ui.InputDelegate {
 	        }
 		}
 		else if (key == Ui.KEY_ENTER) {
-			Sys.println("enter");
 			if (mSport.getState() == ACTIVITY_RECORD) {
+				mSport.setSport(mSport.getSport() + 1);
 				if (mSport.getSport() != SPORT_FINISH) {
-					mSport.setSport(mSport.getSport() + 1);
+					Ui.switchToView(new FourView(mSport, mSettings), new SportInputDelegate(mSport, mSettings), Ui.SLIDE_UP);
 				}
-				var view = getNextView();
-				Ui.switchToView(view, new SportInputDelegate(mSport, mSettings), Ui.SLIDE_IMMEDIATE);
+				else {
+					Ui.switchToView(new finishBubbleView(mSport, mSettings), new SportInputDelegate(mSport, mSettings), Ui.SLIDE_UP); //change input delegate
+				}
 			}
-
 		}
 		return true;
-	}
-
-	function getNextView() {
-		var nextSport = mSport.getSport(); //add transition yes/no ness plus additionl settings for the page types
-		var view = null;
-
-		if (nextSport == SPORT_SWIM) {
-			view = new TwoView(mSport, mSettings);
-		}
-		else if (nextSport == SPORT_T1 || nextSport == SPORT_T2) {
-			view = new TwoView(mSport, mSettings);
-		}
-		else if (nextSport == SPORT_BIKE) {
-			view = new FourView(mSport, mSettings);
-		}
-		else if (nextSport == SPORT_RUN) {
-			view = new FourView(mSport, mSettings);
-		}
-		else if (nextSport == SPORT_FINISH) {
-			view = new finishBubbleView(mSport, mSettings);
-			mSport.setState(ACTIVITY_FINISH);
-		}
-		else if (nextSport > SPORT_FINISH) {
-			Sys.exit(); // a bit harsh for now.
-		}
-
-		return view;
 	}
 }
