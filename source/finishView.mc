@@ -9,23 +9,20 @@ class finishBubbleView extends Ui.View {
 	const TEXT_MARGIN = 2;
 
 	function initialize(sport, settings) {
+		View.initialize();
 		mSport = sport;
 		mSettings = settings;
 	}
 
-    //! Load your resources here
     function onLayout(dc) {
 		setLayout(Rez.Layouts.finishBubble(dc));
     }
-	//! Called when this View is brought to the foreground. Restore
-	//! the state of this View and prepare it to be shown. This includes
-	//! loading resources into memory.
+
 	function onShow() {
 	}
 
-	//! Update the view
     function onUpdate(dc) {
-    	var labels = mSettings.getLabelText(mSport.getSport());
+    	var labels = getBubbleLabel();
     	var string;
 
     	var header = View.findDrawableById("header");
@@ -38,42 +35,79 @@ class finishBubbleView extends Ui.View {
     	bubble1.setColor(Gfx.COLOR_LT_GRAY);
 		bubble1.setText(labels[0]);
 		var bubble1Data = View.findDrawableById("bubble1_Data");
-		string = mSport.formatTime(mSport.activityTime[SPORT_SWIM]);
+		string = mSport.formatTime(mSport.activityTime[mSettings.sportOrder[0]]); //need correct data for order
 		bubble1Data.setText(string);
 
     	var bubble2 = View.findDrawableById("bubble2");
     	bubble2.setColor(Gfx.COLOR_LT_GRAY);
 		bubble2.setText(labels[1]);
 		var bubble2Data = View.findDrawableById("bubble2_Data");
-		string = mSport.formatTime(mSport.activityTime[SPORT_T1]);
+		string = mSport.formatTime(mSport.activityTime[mSettings.sportOrder[1]]);
 		bubble2Data.setText(string);
 
     	var bubble3 = View.findDrawableById("bubble3");
     	bubble3.setColor(Gfx.COLOR_LT_GRAY);
 		bubble3.setText(labels[2]);
 		var bubble3Data = View.findDrawableById("bubble3_Data");
-		string = mSport.formatTime(mSport.activityTime[SPORT_BIKE]);
+		string = mSport.formatTime(mSport.activityTime[mSettings.sportOrder[2]]);
 		bubble3Data.setText(string);
 
     	var bubble4 = View.findDrawableById("bubble4");
     	bubble4.setColor(Gfx.COLOR_LT_GRAY);
 		bubble4.setText(labels[3]);
 		var bubble4Data = View.findDrawableById("bubble4_Data");
-		string = mSport.formatTime(mSport.activityTime[SPORT_T2]);
+		string = mSport.formatTime(mSport.activityTime[mSettings.sportOrder[3]]);
 		bubble4Data.setText(string);
 
     	var bubble5 = View.findDrawableById("bubble5");
     	bubble5.setColor(Gfx.COLOR_LT_GRAY);
 		bubble5.setText(labels[4]);
 		var bubble5Data = View.findDrawableById("bubble5_Data");
-		string = mSport.formatTime(mSport.activityTime[SPORT_RUN]);
+		string = mSport.formatTime(mSport.activityTime[mSettings.sportOrder[4]]);
 		bubble5Data.setText(string);
 
-		lineColor = mSettings.getLineColor(mSport.getSport());
+		lineColor = getBubbleColor();
 
 		View.onUpdate(dc);
     }
 
 	function onHide() {
 	}
+
+	function getBubbleColor() {
+		var line = new [5];
+
+		for (var i = 0; i < 5; i++) {
+			line[i] = mSettings.sportData[mSettings.sportOrder[i]][SPDAT_COLOR][1];
+		}
+		return line;
+	}
+
+	function getBubbleLabel() {
+		var label = new [5];
+
+		for (var i = 0; i < 5; i++) {
+			label[i] = mSettings.sportData[mSettings.sportOrder[i]][SPDAT_ABBR][0];
+		}
+		return label;
+	}
+}
+
+class saveView extends Ui.View {
+	hidden var mSport;
+	hidden var mSettings;
+
+	function initialize(sport, settings) {
+		View.initialize();
+		mSport = sport;
+		mSettings = settings;
+	}
+
+    function onLayout(dc) {
+		setLayout(Rez.Layouts.finishBubble(dc));
+    }
+
+    function onUpdate(dc) {
+
+    }
 }

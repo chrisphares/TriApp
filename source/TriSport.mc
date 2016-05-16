@@ -83,7 +83,7 @@ class TriSport {
 
 	function setSport(sport) {
 		var previousSport = currentSport;
-		currentSport = sport;
+		currentSport = sport; //replace with getnext sport
 		var actInfo = Activity.getActivityInfo();
 
 		if (Toybox has :ActivityRecording) {
@@ -94,13 +94,13 @@ class TriSport {
 					session = Record.createSession({:name=>"Swim", :sport=>Record.SPORT_SWIMMING});
 				}
 				else if (currentSport == SPORT_T1) {
-					session = Record.createSession({:name=>"T1", :sport=>Record.SPORT_TRANSITION});
+					session = Record.createSession({:name=>"Transition", :sport=>Record.SPORT_TRANSITION});
 				}
 				else if (currentSport == SPORT_BIKE) {
 					session = Record.createSession({:name=>"Bike", :sport=>Record.SPORT_CYCLING});
 				}
 				else if (currentSport == SPORT_T2) {
-					session = Record.createSession({:name=>"T2", :sport=>Record.SPORT_TRANSITION});
+					session = Record.createSession({:name=>"Transition", :sport=>Record.SPORT_TRANSITION});
 				}
 				else if (currentSport == SPORT_RUN) {
 					session = Record.createSession({:name=>"Run", :sport=>Record.SPORT_RUNNING});
@@ -108,7 +108,6 @@ class TriSport {
 				else if (currentSport == SPORT_FINISH) {
 					activityTime[previousSport] = actInfo.elapsedTime;
 					session.stop();
-					session.save();
 					setState(ACTIVITY_FINISH);
 					activityTime[SPORT_FINISH] = getTotalTime();
 					return true;
@@ -142,7 +141,7 @@ class TriSport {
 			}
 		}
 		else {
-			return "--:--.-";
+			return "--:--";
 		}
 	}
 

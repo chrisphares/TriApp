@@ -11,6 +11,13 @@ enum {
 }
 
 enum {
+	SPDAT_LABEL,
+	SPDAT_ABBR,
+	SPDAT_COLOR,
+	SPDAT_DATA
+}
+
+enum {
 	SPORT_SWIM,
 	SPORT_T1,
 	SPORT_BIKE,
@@ -37,13 +44,13 @@ var borderWidth;
 var borderHeight;
 var play = false; //play animation visible
 var stop = false; //stop animation visible
-var t1 = true; //t1 or t2; remove with correct order function
 
 // *****************************************
 
 class TriApp extends App.AppBase {
 
 	var mSport;
+	var mSettings;
 
     function initialize() {
         AppBase.initialize();
@@ -58,7 +65,6 @@ class TriApp extends App.AppBase {
 		Snsr.enableSensorEvents(method(:onSnsr));
     }
 
-    //! onStop() is called when your application is exiting
     function onStop() {
     	Position.enableLocationEvents(Position.LOCATION_DISABLE, method(:onPosition));
     }
@@ -71,7 +77,6 @@ class TriApp extends App.AppBase {
 		mSport.setSnsr(sensor_info);
 	}
 
-    //! Return the initial view of your application here
     function getInitialView() {
         return [new TriView(mSport, mSettings), new TriInputDelegate(mSport, mSettings)];
     }

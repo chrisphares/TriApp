@@ -14,6 +14,7 @@ class FourView extends Ui.View {
 	const BORDER_PADDING = 4;
 
 	function initialize(sport, settings) {
+		View.initialize();
 		mSport = sport;
 		mSettings = settings;
 		drawBorder = new Rez.Drawables.border();
@@ -36,16 +37,16 @@ class FourView extends Ui.View {
 
 	//! Update the view
     function onUpdate(dc) {
-    	var labels = mSettings.getLabelText(mSport.getSport());
+    	var thisSport = mSport.getSport();
     	var string;
     	var hValue;
 
     	var topLeft = View.findDrawableById("topLeft");
-		topLeft.setText(labels[0]);
+		topLeft.setText(mSettings.sportData[thisSport][SPDAT_LABEL][0]);
 		var topLeftData = View.findDrawableById("topLeftData");
 		//get this value from activity monitoring functionality
-		string = mSport.getData(mSettings.dataPicker[mSport.getSport()][0]);
-		if ((mSport.getSport() == SPORT_SWIM) || (mSport.getSport() == SPORT_T1) || (mSport.getSport() == SPORT_T2)){
+		string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][0]);
+		if ((thisSport == SPORT_SWIM) || (thisSport == SPORT_T1) || (thisSport == SPORT_T2)){
 			hValue = (dc.getWidth() / 2) + (dc.getTextWidthInPixels(string, Gfx.FONT_NUMBER_MEDIUM) / 2);
 		}
 		else {
@@ -55,19 +56,19 @@ class FourView extends Ui.View {
 		topLeftData.setLocation(hValue, (dc.getHeight() / 2 - dc.getTextDimensions(string, Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
 
 		var topRight = View.findDrawableById("topRight");
-		topRight.setText(labels[1]);
+		topRight.setText(mSettings.sportData[thisSport][SPDAT_LABEL][1]);
 		var topRightData = View.findDrawableById("topRightData");
-		string = mSport.getData(mSettings.dataPicker[mSport.getSport()][1]);
+		string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][1]);
 
 		hValue = (dc.getWidth() - BORDER_PADDING - TEXT_MARGIN);
 		topRightData.setText(string);
 		topRightData.setLocation(hValue, (dc.getHeight() / 2 - dc.getTextDimensions(string, Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
 
 		var bottomLeft = View.findDrawableById("bottomLeft");
-		bottomLeft.setText(labels[2]);
+		bottomLeft.setText(mSettings.sportData[thisSport][SPDAT_LABEL][2]);
 		var bottomLeftData = View.findDrawableById("bottomLeftData");
-		string = mSport.getData(mSettings.dataPicker[mSport.getSport()][2]);
-		if ((mSport.getSport() == SPORT_SWIM) || (mSport.getSport() == SPORT_T1) || (mSport.getSport() == SPORT_T2)) { //replace with two/four view settings stuff
+		string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][2]);
+		if ((thisSport == SPORT_SWIM) || (thisSport == SPORT_T1) || (thisSport == SPORT_T2)) { //replace with two/four view settings stuff
 			hValue = (dc.getWidth() / 2) + (dc.getTextWidthInPixels(string, Gfx.FONT_NUMBER_MEDIUM) / 2);
 		}
 		else {
@@ -77,9 +78,9 @@ class FourView extends Ui.View {
 		bottomLeftData.setLocation(hValue, (dc.getHeight() - dc.getTextDimensions(string, Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
 
 		var bottomRight = View.findDrawableById("bottomRight");
-		bottomRight.setText(labels[3]);
+		bottomRight.setText(mSettings.sportData[thisSport][SPDAT_LABEL][3]);
 		var bottomRightData = View.findDrawableById("bottomRightData");
-		string = mSport.getData(mSettings.dataPicker[mSport.getSport()][3]);
+		string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][3]);
 		hValue = (dc.getWidth() - BORDER_PADDING - TEXT_MARGIN);
 		bottomRightData.setText(string);
 		bottomRightData.setLocation(hValue, (dc.getHeight() - dc.getTextDimensions(string, Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
