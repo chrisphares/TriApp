@@ -1,3 +1,4 @@
 <layout id="initialLayout">
+	<drawable id="gps" />
     <label x="center" y="60" text="@Strings.prompt" color="Gfx.COLOR_WHITE" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 </layout>

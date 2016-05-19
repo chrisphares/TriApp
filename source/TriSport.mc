@@ -1,25 +1,34 @@
 using Toybox.System as Sys;
 using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
-using Toybox.Math as Math;
 using Toybox.Activity as Act;
 using Toybox.ActivityRecording as Record;
 
 class TriSport {
 
-	hidden var currentState;
-	hidden var currentSport;
+	hidden var currentSport = null;
 	hidden var mTimer;
+	hidden var powerTimer;
 	var posnInfo = null;
 	var snsrInfo = null;
 	var distance = 0.00;
 	var session = null;
-	var activityTime = new [6];
+	var activityTime = new [32];
+	var powerData = new [30];
 
 	function initialize() {
-		currentState = ACTIVITY_STOP;
-		currentSport = -1;
 		mTimer = new Timer.Timer();
+		powerTimer = new Timer.Timer();
+	}
+
+	function setPosition(info) {
+		posnInfo = info;
+		Ui.requestUpdate();
+	}
+
+	function setSnsr(sensor_info) {
+		snsrInfo = sensor_info;
+		Ui.requestUpdate();
 	}
 
 	function clearBorder() {
@@ -36,42 +45,47 @@ class TriSport {
 		mTimer.start(method(:clearBorder), 4000, false);
 	}
 
+	function startRecord(sport) {
+		currentSport = sport;
+		if (Toybox has :ActivityRecording) {
+			if (session == null) {
+				session = Record.createSession({:name=>"MultiSport", :sport=>currentSport});
+				setState(ACTIVITY_RECORD);
+			}
+		}
+	}
+
 	function getState() {
-		return currentState;
+		if (Toybox has :ActivityRecording) {
+			if ((session == null) || (session.isRecording() == false)) {
+				return ACTIVITY_STOP;
+			}
+			else if ((session != null) && (session.isRecording() == true)) {
+				return ACTIVITY_RECORD;
+			}
+		}
 	}
 
 	function setState(state) {
-		if (currentState != state) {
-			currentState = state;
-			if(Toybox has :ActivityRecording) {
-				if (session == null) {
-					session = Record.createSession({:name=>"Multisport Activity", :sport=>Record.SPORT_SWIMMING}); //get a better name
-					session.start();
-				}
-			}
-			if (currentState == ACTIVITY_STOP) {
+		if (getState() != state) {
+			if (state == ACTIVITY_STOP) {
 				borderLine = Gfx.COLOR_DK_RED;
 				stop = true;
 				play = false;
-				mTimer.stop();
-				mTimer.start(method(:clearAnim), 1000, false); //clear animation color after 1 second
 				if (session != null) {
 					session.stop();
 				}
 			}
-			else if (currentState == ACTIVITY_RECORD) {
+			else if (state == ACTIVITY_RECORD) {
 				borderLine = Gfx.COLOR_DK_GREEN;
 				play = true;
 				stop = false;
-				mTimer.stop();
-				mTimer.start(method(:clearAnim), 1000, false); //clear animation color after 1 second
 				if (session != null) {
 					session.start();
 				}
 			}
-			else if (currentState == ACTIVITY_FINISH) {
-				return true;
-			}
+			mTimer.stop();
+			mTimer.start(method(:clearAnim), 1000, false); //clear animation color after 1 second
 			Ui.requestUpdate();
 		}
 		return true;
@@ -83,49 +97,29 @@ class TriSport {
 
 	function setSport(sport) {
 		var previousSport = currentSport;
-		currentSport = sport; //replace with getnext sport
-		var actInfo = Activity.getActivityInfo();
-
+		currentSport = sport;
 		if (Toybox has :ActivityRecording) {
-			if ((session != null) && session.isRecording()) {
+			var actInfo = Activity.getActivityInfo();
+			if ((session != null) && session.isRecording()) { //see below; re: handling
 				activityTime[previousSport] = actInfo.elapsedTime;
 				session.stop();
-				if (currentSport == SPORT_SWIM) {
-					session = Record.createSession({:name=>"Swim", :sport=>Record.SPORT_SWIMMING});
-				}
-				else if (currentSport == SPORT_T1) {
-					session = Record.createSession({:name=>"Transition", :sport=>Record.SPORT_TRANSITION});
-				}
-				else if (currentSport == SPORT_BIKE) {
-					session = Record.createSession({:name=>"Bike", :sport=>Record.SPORT_CYCLING});
-				}
-				else if (currentSport == SPORT_T2) {
-					session = Record.createSession({:name=>"Transition", :sport=>Record.SPORT_TRANSITION});
-				}
-				else if (currentSport == SPORT_RUN) {
-					session = Record.createSession({:name=>"Run", :sport=>Record.SPORT_RUNNING});
-				}
-				else if (currentSport == SPORT_FINISH) {
-					activityTime[previousSport] = actInfo.elapsedTime;
-					session.stop();
-					setState(ACTIVITY_FINISH);
+				if (currentSport == SPORT_FINISH) {
 					activityTime[SPORT_FINISH] = getTotalTime();
 					return true;
 				}
-				session.start();
+				else {
+					session = Record.createSession({:name=>"MulstiSport", :sport=>currentSport});
+					session.start(); //handle this better.
+					if (currentSport == Record.SPORT_CYCLING) {
+						powerTimer.start(method(:getPowerData), 1000, true);
+					}
+					else {
+						powerTimer.stop();
+					}
+				}
 			}
 		}
 		return true;
-	}
-
-	function setPosition(info) {
-		posnInfo = info;
-		Ui.requestUpdate();
-	}
-
-	function setSnsr(info) {
-		snsrInfo = info;
-		Ui.requestUpdate();
 	}
 
 	function formatTime(ms) {
@@ -137,7 +131,7 @@ class TriSport {
 				return Lang.format("$1$:$2$.$3$", [hours, minutes.format("%02d"), seconds.format("%02d")]);
 			}
 			else {
-				return Lang.format("$1$:$2$", [minutes.format("%02d"), seconds.format("%02d")]);
+				return Lang.format("$1$:$2$", [minutes.format("%d"), seconds.format("%02d")]);
 			}
 		}
 		else {
@@ -179,7 +173,7 @@ class TriSport {
 			}
 		}
 		else if (label == DATA_LAP_TIME) { //not accurate yet
-			fieldData = "00:00.0";
+			fieldData = "80:08.5";
 		}
 		else if (label == DATA_HR) {
 			if (snsrInfo.heartRate != null) {
@@ -198,15 +192,52 @@ class TriSport {
 			}
 		}
 		else if (label == DATA_10S_POWER) {
-			fieldData = "215";
+			var count = 0;
+			var power = 0;
+			for (var i = 0; i < 10; i++) {
+				if (powerData[i] != null) {
+					count ++;
+					power = power + powerData[i];
+				}
+			}
+			if (count > 0) {
+				fieldData = (power / count).toString();
+			}
+			else {
+				fieldData = "--";
+			}
 		}
 		else if (label == DATA_30S_POWER) {
-			fieldData = "222";
+			var count = 0;
+			var power = 0;
+			for (var i = 0; i < 30; i++) {
+				if (powerData[i] != null) {
+					count ++;
+					power = power + powerData[i];
+				}
+			}
+			if (count > 0) {
+				fieldData = (power / count).toString();
+			}
+			else {
+				fieldData = "--";
+			}
 		}
 		else if (label == DATA_LAP_PACE) {
 			fieldData = "6:70";
 		}
 
 		return fieldData;
+	}
+
+	function getPowerData() {
+		var actInfo = Activity.getActivityInfo();
+		var currentPower = actInfo.currentPower;
+		if (currentPower != null) {
+			for (var i = 28; i >= 0; i--) {
+				powerData[i + 1] = powerData[i];
+			}
+			powerData[0] = currentPower;
+		}
 	}
 }

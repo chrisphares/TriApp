@@ -1,5 +1,6 @@
 using Toybox.System as Sys;
 using Toybox.WatchUi as Ui;
+using Toybox.ActivityRecording as Record;
 
 class SportInputDelegate extends Ui.InputDelegate {
 
@@ -15,16 +16,14 @@ class SportInputDelegate extends Ui.InputDelegate {
 	}
 
 	function onHold(evt) {
-		if ((mSport.getState() == ACTIVITY_STOP) || (mSport.getState() == ACTIVITY_FINISH)) {
-		}
-		else if ((mSport.getSport() != SPORT_SWIM) && (mSport.getState() != SPORT_FINISH)) {
+		if ((mSport.getState() == ACTIVITY_RECORD) && (mSport.getSport() != (Record.SPORT_SWIMMING || SPORT_FINISH))) {
 			mSport.setState(ACTIVITY_STOP);
 		}
 		return true;
 	}
 
 	function onTap(evt) {
-		if ((mSport.getState() == ACTIVITY_STOP) && (mSport.getState() != SPORT_FINISH)) {
+		if ((mSport.getState() == ACTIVITY_STOP) && (mSport.getSport() != SPORT_FINISH)) {
 			mSport.setState(ACTIVITY_RECORD);
 		}
 		return true;
@@ -39,13 +38,14 @@ class SportInputDelegate extends Ui.InputDelegate {
 		}
 		else if (key == Ui.KEY_ENTER) {
 			if (mSport.getState() == ACTIVITY_RECORD) {
+				mSport.setSport(mSettings.getNextSport());
 				if (mSettings.getNextSport() != SPORT_FINISH) {
-					mSport.setSport(mSettings.getNextSport());
 					mSettings.sportIndex++;
 					Ui.switchToView(new FourView(mSport, mSettings), new SportInputDelegate(mSport, mSettings), Ui.SLIDE_UP);
 				}
 				else {
-					Ui.switchToView(new finishBubbleView(mSport, mSettings), new finishInputDelegate(mSport, mSettings), Ui.SLIDE_UP); //change input delegate
+					mSettings.sportIndex++;
+					Ui.switchToView(new finishBubbleView(mSport, mSettings), new finishInputDelegate(mSport, mSettings), Ui.SLIDE_UP);
 				}
 			}
 		}

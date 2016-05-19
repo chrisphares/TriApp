@@ -19,9 +19,7 @@ class TriInputDelegate extends Ui.InputDelegate {
     		Sys.exit;
 		}
 		else if (evt.getKey() == Ui.KEY_ENTER) {
-			mSport.setSport(mSettings.sportOrder[0]);
-			mSport.setState(ACTIVITY_RECORD);
-
+			mSport.startRecord(mSettings.sportOrder[0]);
 			Ui.switchToView(new FourView(mSport, mSettings), new SportInputDelegate(mSport, mSettings), Ui.SLIDE_IMMEDIATE);
 		}
 	}

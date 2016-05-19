@@ -1,6 +1,7 @@
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
+using Toybox.ActivityRecording as Record;
 
 class FourView extends Ui.View {
 
@@ -46,7 +47,7 @@ class FourView extends Ui.View {
 		var topLeftData = View.findDrawableById("topLeftData");
 		//get this value from activity monitoring functionality
 		string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][0]);
-		if ((thisSport == SPORT_SWIM) || (thisSport == SPORT_T1) || (thisSport == SPORT_T2)){
+		if ((thisSport == Record.SPORT_SWIMMING) || (thisSport == Record.SPORT_TRANSITION)){
 			hValue = (dc.getWidth() / 2) + (dc.getTextWidthInPixels(string, Gfx.FONT_NUMBER_MEDIUM) / 2);
 		}
 		else {
@@ -68,7 +69,7 @@ class FourView extends Ui.View {
 		bottomLeft.setText(mSettings.sportData[thisSport][SPDAT_LABEL][2]);
 		var bottomLeftData = View.findDrawableById("bottomLeftData");
 		string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][2]);
-		if ((thisSport == SPORT_SWIM) || (thisSport == SPORT_T1) || (thisSport == SPORT_T2)) { //replace with two/four view settings stuff
+		if ((thisSport == Record.SPORT_SWIMMING) || (thisSport == Record.SPORT_TRANSITION)) { //replace with two/four view settings stuff
 			hValue = (dc.getWidth() / 2) + (dc.getTextWidthInPixels(string, Gfx.FONT_NUMBER_MEDIUM) / 2);
 		}
 		else {

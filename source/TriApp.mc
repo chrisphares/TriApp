@@ -6,8 +6,7 @@ using Toybox.Sensor as Snsr;
 // Globals *********************************
 enum {
 	ACTIVITY_STOP,
-	ACTIVITY_RECORD,
-	ACTIVITY_FINISH
+	ACTIVITY_RECORD
 }
 
 enum {
@@ -15,15 +14,6 @@ enum {
 	SPDAT_ABBR,
 	SPDAT_COLOR,
 	SPDAT_DATA
-}
-
-enum {
-	SPORT_SWIM,
-	SPORT_T1,
-	SPORT_BIKE,
-	SPORT_T2,
-	SPORT_RUN,
-	SPORT_FINISH
 }
 
 enum {
@@ -38,8 +28,9 @@ enum {
 	DATA_LAP_PACE
 }
 
-var lineColor;
-var borderLine = Gfx.COLOR_TRANSPARENT;
+var SPORT_FINISH = 31; //add a type in the enum
+var lineColor; //seperator line color
+var borderLine = Gfx.COLOR_TRANSPARENT; //hide it unles explicitly changed
 var borderWidth;
 var borderHeight;
 var play = false; //play animation visible
@@ -61,7 +52,7 @@ class TriApp extends App.AppBase {
     	mSport = new TriSport();
     	mSettings = new TriSettings();
     	Position.enableLocationEvents(Position.LOCATION_CONTINUOUS, method(:onPosition));
-		Snsr.setEnabledSensors([Snsr.SENSOR_HEARTRATE], [Snsr.SENSOR_FOOTPOD]);
+		Snsr.setEnabledSensors([Snsr.SENSOR_HEARTRATE], [Snsr.SENSOR_FOOTPOD], [Snsr.SENSOR_BIKECADENCE], [Snsr.SENSOR_BIKEPOWER]);
 		Snsr.enableSensorEvents(method(:onSnsr));
     }
 

@@ -77,7 +77,7 @@ class finishBubbleView extends Ui.View {
 	function getBubbleColor() {
 		var line = new [5];
 
-		for (var i = 0; i < 5; i++) {
+		for (var i = 0; i < (mSettings.sportOrder.size() - 1); i++) {
 			line[i] = mSettings.sportData[mSettings.sportOrder[i]][SPDAT_COLOR][1];
 		}
 		return line;
@@ -86,7 +86,7 @@ class finishBubbleView extends Ui.View {
 	function getBubbleLabel() {
 		var label = new [5];
 
-		for (var i = 0; i < 5; i++) {
+		for (var i = 0; i < (mSettings.sportOrder.size() - 1); i++) {
 			label[i] = mSettings.sportData[mSettings.sportOrder[i]][SPDAT_ABBR][0];
 		}
 		return label;
