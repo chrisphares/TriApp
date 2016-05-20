@@ -1,0 +1,5 @@
+<drawable-list id="bpm">
+    <shape type="circle" x="10" y="50" radius="5" color="Gfx.COLOR_RED" />
+    <shape type="circle" x="20" y="50" radius="5" color="Gfx.COLOR_RED" />
+    <shape type="polygon" points="[[25,50],[15,65],[5,50]]" color="Gfx.COLOR_RED" />
+</drawable-list>

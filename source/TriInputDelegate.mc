@@ -22,5 +22,8 @@ class TriInputDelegate extends Ui.InputDelegate {
 			mSport.startRecord(mSettings.sportOrder[0]);
 			Ui.switchToView(new FourView(mSport, mSettings), new SportInputDelegate(mSport, mSettings), Ui.SLIDE_IMMEDIATE);
 		}
+		else if (evt.getKey() == Ui.KEY_MENU) {
+			Ui.pushView(new Rez.Menus.mainMenu(), new TriMenuDelegate(mSport, mSettings), Ui.SLIDE_IMMEDIATE);
+		}
 	}
 }

@@ -1,5 +1,5 @@
 <drawable-list id="gps">
-    <shape type="circle" x="15" y="35" radius="10" color="Gfx.COLOR_BLUE" />
-    <shape type="polygon" points="[[26,35],[5,35],[15,55],[16,55]]" color="Gfx.COLOR_BLUE" />
-    <shape type="circle" x="15" y="35" radius="4" color="Gfx.COLOR_BLACK" />
+    <shape type="circle" x="15" y="15" radius="10" color="Gfx.COLOR_BLUE" />
+    <shape type="polygon" points="[[26,15],[5,15],[15,35],[16,35]]" color="Gfx.COLOR_BLUE" />
+    <shape type="circle" x="15" y="15" radius="4" color="Gfx.COLOR_BLACK" />
 </drawable-list>

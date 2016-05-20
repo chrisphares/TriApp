@@ -7,11 +7,15 @@ class TriView extends Ui.View {
 	hidden var mSport;
 	hidden var mSettings;
 	hidden var flash = true;
+	hidden var bpm;
+	hidden var cadence;
 
 	function initialize(sport, settings) {
 		View.initialize();
 		mSport = sport;
 		mSettings = settings;
+		bpm = new Rez.Drawables.bpm();
+		cadence = new Rez.Drawables.cadence();
 	}
 
     //! Load your resources here
@@ -58,24 +62,31 @@ class TriView extends Ui.View {
 			dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT);
 			drawGps(0, dc);
 		}
+
+		bpm.draw(dc);
+		var hr = View.findDrawableById("hr");
+		hr.setText(mSport.getData(DATA_HR));
+
+		cadence.draw(dc);
 	}
 
 	function drawGps(signal, dc) {
 		if (signal == 0) {
-			dc.fillPolygon([[25,25],[27,27],[10,57],[8,55]]);
+			dc.fillPolygon([[25,5],[27,7],[10,37],[8,35]]);
 			flash = true;
 	    }
 		if (signal > 0) {
-	    	dc.drawArc(21, 30, 8, Gfx.ARC_COUNTER_CLOCKWISE, 350, 100);
-	    	dc.drawArc(21, 30, 9, Gfx.ARC_COUNTER_CLOCKWISE, 350, 100);
+			dc.setPenWidth(2);
+	    	dc.drawLine(33, 31, 33, 26);
 	    }
 	    if (signal > 1) {
-	    	dc.drawArc(21, 30, 13, Gfx.ARC_COUNTER_CLOCKWISE, 350, 100);
-	    	dc.drawArc(21, 30, 14, Gfx.ARC_COUNTER_CLOCKWISE, 350, 100);
+	    	dc.drawLine(37, 31, 37, 21);
 	    }
 	    if (signal > 2) {
-	    	dc.drawArc(21, 30, 18, Gfx.ARC_COUNTER_CLOCKWISE, 350, 100);
-	    	dc.drawArc(21, 30, 19, Gfx.ARC_COUNTER_CLOCKWISE, 350, 100);
+	    	dc.drawLine(41, 31, 41, 16);
+	    }
+	    if (signal > 3) {
+	    	dc.drawLine(45, 31, 45, 11);
 	    }
 	}
 

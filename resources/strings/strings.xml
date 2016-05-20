@@ -1,6 +1,9 @@
 <strings>
     <string id="AppName">Tri Sport</string>
-    <string id="prompt">Press Start.</string>
+    <string id="prompt">Press Start ></string>
+    <string id="exit">Exit</string>
+    <string id="menu">Menu</string>
+    <string id="hr">165</string>
     <string id="top_left">10s Power</string>
     <string id="top_left_data">__</string>
     <string id="top_right">30s Power</string>

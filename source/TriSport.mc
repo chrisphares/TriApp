@@ -151,6 +151,7 @@ class TriSport {
 
 	function getData(label) {
 		var actInfo = Activity.getActivityInfo();
+		var sensInfo = Sensor.getInfo();
 		var fieldData = null;
 
 		if (label == DATA_NA) {
@@ -176,8 +177,8 @@ class TriSport {
 			fieldData = "80:08.5";
 		}
 		else if (label == DATA_HR) {
-			if (snsrInfo.heartRate != null) {
-				fieldData = snsrInfo.heartRate.format("%d");
+			if (sensInfo.heartRate != null) {
+				fieldData = sensInfo.heartRate.format("%d");
 			}
 			else {
 				fieldData = "--";
