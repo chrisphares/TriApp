@@ -24,4 +24,7 @@
     <string id="bubble4_Data"></string>
     <string id="bubble5_Data"></string>
     <string id="header_Data"></string>    
+    <string id="svPrompt">Save Activity?</string>
+    <string id="svSave">Save</string>
+    <string id="svDiscard">Discard</string>    
 </strings>
