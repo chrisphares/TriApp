@@ -50,6 +50,7 @@ class TriSport {
 		if (Toybox has :ActivityRecording) {
 			if (session == null) {
 				session = Record.createSession({:name=>"MultiSport", :sport=>currentSport});
+				checkPower(currentSport);
 				setState(ACTIVITY_RECORD);
 			}
 		}
@@ -110,12 +111,7 @@ class TriSport {
 				else {
 					session = Record.createSession({:name=>"MulstiSport", :sport=>currentSport});
 					session.start(); //handle this better.
-					if (currentSport == Record.SPORT_CYCLING) {
-						powerTimer.start(method(:getPowerData), 1000, true);
-					}
-					else {
-						powerTimer.stop();
-					}
+					checkPower(currentSport);
 				}
 			}
 		}
@@ -152,45 +148,51 @@ class TriSport {
 	function getData(label) {
 		var actInfo = Activity.getActivityInfo();
 		var sensInfo = Sensor.getInfo();
-		var fieldData = null;
+		var sportData = new [2];
 
 		if (label == DATA_NA) {
-			fieldData = ""; //blank
+			sportData[0] = ""; //blank
+			sportData[1] = ""; //blank
 		}
 		else if (label == DATA_SWIM_DISTANCE) {
 			if (actInfo.elapsedDistance != null) {
-				fieldData = actInfo.elapsedDistance.format("%d"); //meters
+				sportData[0] = actInfo.elapsedDistance.format("%d"); //meters
 			}
 			else {
-				fieldData = "--";
+				sportData[0] = "--";
 			}
+			sportData[1] = "Distance";
 		}
 		else if (label == DATA_ELAPSED_TIME) {
 			if (actInfo.elapsedTime != null) {
-				fieldData = formatTime(actInfo.elapsedTime); //add all the times together
+				sportData[0] = formatTime(actInfo.elapsedTime); //add all the times together
 			}
 			else {
-				fieldData = "00:00";
+				sportData[0] = "00:00";
 			}
+			sportData[1] = "Elapsed Time";
 		}
 		else if (label == DATA_LAP_TIME) { //not accurate yet
-			fieldData = "80:08.5";
+			sportData[0] = "80:08.5";
+			sportData[1] = "Lap Time";
 		}
 		else if (label == DATA_HR) {
 			if (sensInfo.heartRate != null) {
-				fieldData = sensInfo.heartRate.format("%d");
+				sportData[0] = sensInfo.heartRate.format("%d");
 			}
 			else {
-				fieldData = "--";
+				sportData[0] = "--";
 			}
+			sportData[1] = "Heart Rate";
 		}
 		else if (label == DATA_CADENCE) {
 			if (actInfo.currentCadence != null) {
-				fieldData = actInfo.currentCadence.toString();
+				sportData[0] = actInfo.currentCadence.toString();
 			}
 			else {
-				fieldData = "--";
+				sportData[0] = "--";
 			}
+			sportData[1] = "Cadence";
 		}
 		else if (label == DATA_10S_POWER) {
 			var count = 0;
@@ -202,11 +204,12 @@ class TriSport {
 				}
 			}
 			if (count > 0) {
-				fieldData = (power / count).toString();
+				sportData[0] = (power / count).toString();
 			}
 			else {
-				fieldData = "--";
+				sportData[0] = "--";
 			}
+			sportData[1] = "10s Power";
 		}
 		else if (label == DATA_30S_POWER) {
 			var count = 0;
@@ -218,17 +221,28 @@ class TriSport {
 				}
 			}
 			if (count > 0) {
-				fieldData = (power / count).toString();
+				sportData[0] = (power / count).toString();
 			}
 			else {
-				fieldData = "--";
+				sportData[0] = "--";
 			}
+			sportData[1] = "30s Power";
 		}
 		else if (label == DATA_LAP_PACE) {
-			fieldData = "6:70";
+			sportData[0] = "6:70";
+			sportData[1] = "Lap Pace";
 		}
 
-		return fieldData;
+		return sportData;
+	}
+
+	function checkPower(sport) {
+		if (sport == Record.SPORT_CYCLING) {
+			powerTimer.start(method(:getPowerData), 1000, true);
+		}
+		else {
+			powerTimer.stop();
+		}
 	}
 
 	function getPowerData() {

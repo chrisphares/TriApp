@@ -9,7 +9,7 @@ class finishBubbleView extends Ui.View {
 	const TEXT_MARGIN = 2;
 
 	function initialize(sport, settings) {
-		View.initialize(dc);
+		View.initialize();
 		mSport = sport;
 		mSettings = settings;
 	}

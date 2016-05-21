@@ -9,24 +9,22 @@ class TriView extends Ui.View {
 	hidden var flash = true;
 	hidden var bpm;
 	hidden var cadence;
+	hidden var mTimer;
 
 	function initialize(sport, settings) {
 		View.initialize();
 		mSport = sport;
 		mSettings = settings;
 		bpm = new Rez.Drawables.bpm();
-		cadence = new Rez.Drawables.cadence();
+		mTimer = new Timer.Timer();
 	}
 
-    //! Load your resources here
 	function onLayout(dc) {
 		setLayout(Rez.Layouts.initialLayout(dc));
-    }
-	//! Called when this View is brought to the foreground. Restore
-	//! the state of this View and prepare it to be shown. This includes
-	//! loading resources into memory.
-	function onShow() {
+	}
 
+	function onShow() {
+		mTimer.start(method(:flipFlash), 1000, true);
 	}
 
 	//! Update the view
@@ -51,11 +49,7 @@ class TriView extends Ui.View {
 			}
 
 			if (flash == true) {
-				flash = false;
 				drawGps(mSport.posnInfo.accuracy, dc);
-			}
-			else {
-				flash = true;
 			}
 		}
 		else {
@@ -65,9 +59,7 @@ class TriView extends Ui.View {
 
 		bpm.draw(dc);
 		var hr = View.findDrawableById("hr");
-		hr.setText(mSport.getData(DATA_HR));
-
-		cadence.draw(dc);
+		hr.setText(mSport.getData(DATA_HR)[0]);
 	}
 
 	function drawGps(signal, dc) {
@@ -78,8 +70,6 @@ class TriView extends Ui.View {
 		if (signal > 0) {
 			dc.setPenWidth(2);
 	    	dc.drawLine(33, 31, 33, 26);
-	    }
-	    if (signal > 1) {
 	    	dc.drawLine(37, 31, 37, 21);
 	    }
 	    if (signal > 2) {
@@ -90,6 +80,16 @@ class TriView extends Ui.View {
 	    }
 	}
 
+	function flipFlash() {
+		if (flash == true) {
+			flash = false;
+		}
+		else {
+			flash = true;
+		}
+	}
+
 	function onHide() {
+		mTimer.stop();
 	}
 }

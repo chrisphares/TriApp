@@ -10,9 +10,7 @@ enum {
 }
 
 enum {
-	SPDAT_LABEL,
-	SPDAT_ABBR,
-	SPDAT_COLOR,
+	SPDAT_INFO,
 	SPDAT_DATA
 }
 
@@ -28,7 +26,7 @@ enum {
 	DATA_LAP_PACE
 }
 
-var SPORT_FINISH = 31; //add a type in the enum
+const SPORT_FINISH = 20; //add a type in the enum
 var lineColor; //seperator line color
 var borderLine = Gfx.COLOR_TRANSPARENT; //hide it unles explicitly changed
 var borderWidth;

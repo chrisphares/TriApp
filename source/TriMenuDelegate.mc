@@ -36,6 +36,26 @@ class TriMenuDelegate extends Ui.MenuInputDelegate {
         	var sportMenu = getSportMenu(mSettings.sportOrder[0]);
             Ui.pushView(sportMenu, new TriMenuDelegate(mSport, mSettings, mSportPicker), Ui.SLIDE_UP);
 		}
+        else if (item == :secondSport) {
+        	mSportPicker = 1;
+        	var sportMenu = getSportMenu(mSettings.sportOrder[1]);
+            Ui.pushView(sportMenu, new TriMenuDelegate(mSport, mSettings, mSportPicker), Ui.SLIDE_UP);
+		}
+        else if (item == :thirdSport) {
+        	mSportPicker = 2;
+        	var sportMenu = getSportMenu(mSettings.sportOrder[2]);
+            Ui.pushView(sportMenu, new TriMenuDelegate(mSport, mSettings, mSportPicker), Ui.SLIDE_UP);
+		}
+        else if (item == :fourthSport) {
+        	mSportPicker = 3;
+        	var sportMenu = getSportMenu(mSettings.sportOrder[3]);
+            Ui.pushView(sportMenu, new TriMenuDelegate(mSport, mSettings, mSportPicker), Ui.SLIDE_UP);
+		}
+        else if (item == :fifthSport) {
+        	mSportPicker = 4;
+        	var sportMenu = getSportMenu(mSettings.sportOrder[4]);
+            Ui.pushView(sportMenu, new TriMenuDelegate(mSport, mSettings, mSportPicker), Ui.SLIDE_UP);
+		}
         else {
 			for (var i = 0; i < mSettings.sportData.size(); i++) {
 				if (i == item) {
@@ -49,10 +69,10 @@ class TriMenuDelegate extends Ui.MenuInputDelegate {
 
     function getSportMenu(sport) {
 		var menu = new Ui.Menu();
-		menu.setTitle("Current: " + mSettings.sportData[sport][SPDAT_ABBR][1]);
+		menu.setTitle("Current: " + mSettings.sportData[sport][SPDAT_INFO][1]);
 		for (var i = 0; i < mSettings.sportData.size(); i++) {
 			if (mSettings.sportData[i] != null) {
-				var sportName = mSettings.sportData[i][SPDAT_ABBR][1];
+				var sportName = mSettings.sportData[i][SPDAT_INFO][1];
 				menu.addItem(sportName, i);
 			}
 		}

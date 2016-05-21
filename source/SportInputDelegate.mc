@@ -6,13 +6,11 @@ class SportInputDelegate extends Ui.InputDelegate {
 
 	hidden var mSport;
 	hidden var mSettings;
-	hidden var mTimer;
 
 	function initialize(sport, settings) {
 		InputDelegate.initialize();
 		mSport = sport;
 		mSettings = settings;
-		mTimer = new Timer.Timer();
 	}
 
 	function onHold(evt) {
