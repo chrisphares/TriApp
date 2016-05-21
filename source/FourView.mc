@@ -48,45 +48,37 @@ class FourView extends Ui.View {
     	var topLeft = View.findDrawableById("topLeft");
 		topLeft.setText(string[1]);
 		var topLeftData = View.findDrawableById("topLeftData");
-		//get this value from activity monitoring functionality
+		topLeftData.setText(string[0]);
 		if (mSettings.sportData[thisSport][SPDAT_DATA][1] == DATA_NA){
 			hValue = (dc.getWidth() / 2) + (dc.getTextWidthInPixels(string[0], Gfx.FONT_NUMBER_MEDIUM) / 2);
 			lineColor[0] = Gfx.COLOR_TRANSPARENT;
 		}
 		else {
 			hValue = ((dc.getWidth() / 2) - BORDER_PADDING - TEXT_MARGIN);
-			string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][1]);
-			var topRight = View.findDrawableById("topRight");
-			topRight.setText(string[1]);
-			var topRightData = View.findDrawableById("topRightData");
-			hValue = (dc.getWidth() - BORDER_PADDING - TEXT_MARGIN);
-			topRightData.setText(string[0]);
-			topRightData.setLocation(hValue, (dc.getHeight() / 2 - dc.getTextDimensions(string[0], Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
 		}
-		topLeftData.setText(string[0]);
 		topLeftData.setLocation(hValue, (dc.getHeight() / 2 - dc.getTextDimensions(string[0], Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
+		string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][1]);
+		var topRight = View.findDrawableById("topRight");
+		topRight.setText(string[1]);
+		var topRightData = View.findDrawableById("topRightData");
+		hValue = (dc.getWidth() - BORDER_PADDING - TEXT_MARGIN);
+		topRightData.setText(string[0]);
+		topRightData.setLocation(hValue, (dc.getHeight() / 2 - dc.getTextDimensions(string[0], Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
+
 
 		string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][2]);
 		var bottomLeft = View.findDrawableById("bottomLeft");
 		bottomLeft.setText(string[1]);
 		var bottomLeftData = View.findDrawableById("bottomLeftData");
+		bottomLeftData.setText(string[0]);
 		if (mSettings.sportData[thisSport][SPDAT_DATA][3] == DATA_NA) {
 			hValue = (dc.getWidth() / 2) + (dc.getTextWidthInPixels(string[0], Gfx.FONT_NUMBER_MEDIUM) / 2);
 			lineColor[1] = Gfx.COLOR_TRANSPARENT;
 		}
 		else {
 			hValue = ((dc.getWidth() / 2) - BORDER_PADDING - TEXT_MARGIN);
-			string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][3]);
-			var bottomRight = View.findDrawableById("bottomRight");
-			bottomRight.setText(string[1]);
-			var bottomRightData = View.findDrawableById("bottomRightData");
-			hValue = (dc.getWidth() - BORDER_PADDING - TEXT_MARGIN);
-			bottomRightData.setText(string[0]);
-			bottomRightData.setLocation(hValue, (dc.getHeight() - dc.getTextDimensions(string[0], Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
 		}
-		bottomLeftData.setText(string[0]);
 		bottomLeftData.setLocation(hValue, (dc.getHeight() - dc.getTextDimensions(string[0], Gfx.FONT_NUMBER_MEDIUM)[1] - TEXT_MARGIN));
-
 		string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][3]);
 		var bottomRight = View.findDrawableById("bottomRight");
 		bottomRight.setText(string[1]);

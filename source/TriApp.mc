@@ -28,7 +28,7 @@ enum {
 
 const SPORT_FINISH = 20; //add a type in the enum
 var lineColor; //seperator line color
-var borderLine = Gfx.COLOR_TRANSPARENT; //hide it unles explicitly changed
+var borderLine = Gfx.COLOR_TRANSPARENT; //hide it unless explicitly changed
 var borderWidth;
 var borderHeight;
 var play = false; //play animation visible

@@ -78,7 +78,7 @@ class finishBubbleView extends Ui.View {
 		var line = new [5];
 
 		for (var i = 0; i < (mSettings.sportOrder.size() - 1); i++) {
-			line[i] = mSettings.sportData[mSettings.sportOrder[i]][SPDAT_COLOR][1];
+			line[i] = mSettings.sportData[mSettings.sportOrder[i]][SPDAT_INFO][2];
 		}
 		return line;
 	}
@@ -87,7 +87,7 @@ class finishBubbleView extends Ui.View {
 		var label = new [5];
 
 		for (var i = 0; i < (mSettings.sportOrder.size() - 1); i++) {
-			label[i] = mSettings.sportData[mSettings.sportOrder[i]][SPDAT_ABBR][0];
+			label[i] = mSettings.sportData[mSettings.sportOrder[i]][SPDAT_INFO][0];
 		}
 		return label;
 	}
