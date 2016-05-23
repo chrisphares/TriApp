@@ -106,6 +106,7 @@ class TriSport {
 				session.stop();
 				if (currentSport == SPORT_FINISH) {
 					activityTime[SPORT_FINISH] = getTotalTime();
+					session.save();
 					return true;
 				}
 				else {
@@ -245,7 +246,7 @@ class TriSport {
 		}
 	}
 
-	function getPowerData() {
+	function getPowerData() { //create array of 30 seconds of power data
 		var actInfo = Activity.getActivityInfo();
 		var currentPower = actInfo.currentPower;
 		if (currentPower != null) {

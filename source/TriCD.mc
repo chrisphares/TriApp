@@ -6,17 +6,14 @@ class CD extends Ui.ConfirmationDelegate {
 	hidden var mSport;
 
 	function initialize(sport) {
-		mSport = sport;
 		ConfirmationDelegate.initialize();
+		mSport = sport;
 	}
 
     function onResponse(value) {
-        if (value == 0) { //cancel
-        }
-        else { //confirm
+        if (value == 1) { //confirm
 			if (Toybox has :ActivityRecording) {
 				if (mSport.session != null) {
-					mSport.session.discard();
 					Sys.exit();
 				}
 			}

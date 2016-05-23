@@ -1,11 +1,11 @@
 <layout id="dataFields" background="Gfx.COLOR_TRANSPARENT" >
 	<drawable id="separator" />
-	<label id="topLeft" text="@Strings.top_left" x="2" y="2" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	<label id="topLeft" text="@Strings.top_left" x="4" y="2" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />
 	<label id="topRight" text="@Strings.top_right" x="106" y="0" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />
-	<label id="bottomLeft" text="@Strings.bottom_left" x="2" y="75" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	<label id="bottomLeft" text="@Strings.bottom_left" x="4" y="75" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />
 	<label id="bottomRight" text="@Strings.bottom_right" x="106" y="75" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />
 	<label id="topLeftData" text="@Strings.top_left_data" x="98" y="37" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
-	<label id="topRightData" text="@Strings.top_right_data" x="203" y="37" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	<label id="topRightData" text="@Strings.top_right_data" x="201" y="37" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
 	<label id="bottomLeftData" text="@Strings.bottom_left_data" x="98" y="113" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
-	<label id="bottomRightData" text="@Strings.bottom_right_data" x="203" y="113" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	<label id="bottomRightData" text="@Strings.bottom_right_data" x="201" y="113" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
 </layout>

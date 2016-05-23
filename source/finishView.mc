@@ -6,14 +6,12 @@ class finishBubbleView extends Ui.View {
 
 	hidden var mSport;
 	hidden var mSettings;
-	hidden var mTimer;
 	const TEXT_MARGIN = 2;
 
 	function initialize(sport, settings) {
 		View.initialize();
 		mSport = sport;
 		mSettings = settings;
-		mTimer = new Timer.Timer();
 	}
 
     function onLayout(dc) {
@@ -21,8 +19,6 @@ class finishBubbleView extends Ui.View {
     }
 
 	function onShow() {
-		mTimer.stop();
-		mTimer.start(method(:askSave), 5000, false);
 	}
 
     function onUpdate(dc) {
@@ -76,7 +72,6 @@ class finishBubbleView extends Ui.View {
     }
 
 	function onHide() {
-		mTimer.stop();
 	}
 
 	function getBubbleColor() {
@@ -96,32 +91,4 @@ class finishBubbleView extends Ui.View {
 		}
 		return label;
 	}
-
-	function askSave() {
-		Ui.pushView(new saveView(mSport, mSettings), new saveInputDelegate(mSport, mSettings), Ui.SLIDE_IMMEDIATE);
-	}
-}
-
-class saveView extends Ui.View {
-	hidden var mSport;
-	hidden var mSettings;
-	hidden var drawSaveView;
-
-	function initialize(sport, settings) {
-		View.initialize();
-		mSport = sport;
-		mSettings = settings;
-		drawSaveView = new Rez.Drawables.saveView();
-	}
-
-    function onLayout(dc) {
-    }
-
-    function onUpdate(dc) {
-		drawSaveView.draw(dc);
-		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-		dc.drawText((dc.getWidth() / 2), ((dc.getHeight() / 2) - 26), Gfx.FONT_MEDIUM, "Save Activity?", Gfx.TEXT_JUSTIFY_CENTER );
-		dc.drawText(125, 107, Gfx.FONT_MEDIUM, "Save", Gfx.TEXT_JUSTIFY_CENTER );
-		dc.drawText(36, 107, Gfx.FONT_LARGE, "X", Gfx.TEXT_JUSTIFY_CENTER );
-    }
 }
