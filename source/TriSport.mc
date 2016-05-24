@@ -171,7 +171,7 @@ class TriSport {
 			else {
 				sportData[0] = "00:00";
 			}
-			sportData[1] = "Elapsed Time";
+			sportData[1] = "Timer";
 		}
 		else if (label == DATA_LAP_TIME) { //not accurate yet
 			sportData[0] = "80:08.5";
@@ -186,13 +186,17 @@ class TriSport {
 			}
 			sportData[1] = "Heart Rate";
 		}
-		else if (label == DATA_CADENCE) {
+		else if (label == DATA_RUN_CADENCE) {
 			if (actInfo.currentCadence != null) {
 				sportData[0] = actInfo.currentCadence.toString();
 			}
 			else {
 				sportData[0] = "--";
 			}
+			sportData[1] = "Cadence";
+		}
+		else if (label == DATA_BIKE_CADENCE) {
+			sportData[0] = "--";
 			sportData[1] = "Cadence";
 		}
 		else if (label == DATA_10S_POWER) {

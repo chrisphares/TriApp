@@ -2,6 +2,6 @@
 	<drawable id="gps" />
     <label x="135" y="25" text="@Strings.prompt" color="Gfx.COLOR_WHITE" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER" />
     <label x="35" y="120" text="@Strings.exit" color="Gfx.COLOR_WHITE" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-    <label x="165" y="120" text="@Strings.menu" color="Gfx.COLOR_WHITE" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label x="168" y="120" text="@Strings.menu" color="Gfx.COLOR_WHITE" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER" />
     <label id="hr" x="28" y="45" text="@Strings.hr" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" />
 </layout>

@@ -43,7 +43,7 @@ class SportInputDelegate extends Ui.InputDelegate {
 				}
 				else {
 					mSettings.sportIndex++;
-					Ui.switchToView(new finishBubbleView(mSport, mSettings), new finishInputDelegate(mSport, mSettings), Ui.SLIDE_UP);
+					Ui.switchToView(new FinishBubbleView(mSport, mSettings), new FinishInputDelegate(mSport, mSettings), Ui.SLIDE_UP);
 				}
 			}
 		}

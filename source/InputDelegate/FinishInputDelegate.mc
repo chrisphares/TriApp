@@ -1,7 +1,7 @@
 using Toybox.System as Sys;
 using Toybox.WatchUi as Ui;
 
-class finishInputDelegate extends Ui.InputDelegate {
+class FinishInputDelegate extends Ui.InputDelegate {
 
 	hidden var mSport;
 	hidden var mSettings;
@@ -16,10 +16,8 @@ class finishInputDelegate extends Ui.InputDelegate {
 		var key = evt.getKey();
 
 		if (key == Ui.KEY_ESC) {
-			if (mSport.session != null) {
-				var cd = new Ui.Confirmation("Exit?");
-				Ui.pushView(cd, new CD(mSport), Ui.SLIDE_IMMEDIATE);
-			}
+			var cd = new Ui.Confirmation("Exit?");
+			Ui.pushView(cd, new CD(), Ui.SLIDE_IMMEDIATE);
 		}
 		return true;
 	}

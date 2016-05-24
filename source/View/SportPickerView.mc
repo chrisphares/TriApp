@@ -2,11 +2,10 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 
-class finishBubbleView extends Ui.View {
+class SportPickerView extends Ui.View {
 
 	hidden var mSport;
 	hidden var mSettings;
-	const TEXT_MARGIN = 2;
 
 	function initialize(sport, settings) {
 		View.initialize();
@@ -15,7 +14,7 @@ class finishBubbleView extends Ui.View {
 	}
 
     function onLayout(dc) {
-		setLayout(Rez.Layouts.finishBubble(dc));
+		setLayout(Rez.Layouts.sportPicker(dc));
     }
 
 	function onShow() {
@@ -27,43 +26,43 @@ class finishBubbleView extends Ui.View {
 
     	var header = View.findDrawableById("header");
     	header.setColor(Gfx.COLOR_LT_GRAY);
-    	var headerData = View.findDrawableById("header_Data");
-    	string = mSport.formatTime(mSport.activityTime[SPORT_FINISH]);
-    	headerData.setText(string);
+    	header.setLocation(dc.getWidth() / 2, 1);
+    	string = "Select Sport";
+    	header.setText(string);
 
     	var bubble1 = View.findDrawableById("bubble1");
     	bubble1.setColor(Gfx.COLOR_LT_GRAY);
 		bubble1.setText(labels[0]);
 		var bubble1Data = View.findDrawableById("bubble1_Data");
-		string = mSport.formatTime(mSport.activityTime[mSettings.sportOrder[0]]); //need correct data for order
+		string = "1";
 		bubble1Data.setText(string);
 
     	var bubble2 = View.findDrawableById("bubble2");
     	bubble2.setColor(Gfx.COLOR_LT_GRAY);
 		bubble2.setText(labels[1]);
 		var bubble2Data = View.findDrawableById("bubble2_Data");
-		string = mSport.formatTime(mSport.activityTime[mSettings.sportOrder[1]]);
+		string = "2";
 		bubble2Data.setText(string);
 
     	var bubble3 = View.findDrawableById("bubble3");
     	bubble3.setColor(Gfx.COLOR_LT_GRAY);
 		bubble3.setText(labels[2]);
 		var bubble3Data = View.findDrawableById("bubble3_Data");
-		string = mSport.formatTime(mSport.activityTime[mSettings.sportOrder[2]]);
+		string = "3";
 		bubble3Data.setText(string);
 
     	var bubble4 = View.findDrawableById("bubble4");
     	bubble4.setColor(Gfx.COLOR_LT_GRAY);
 		bubble4.setText(labels[3]);
 		var bubble4Data = View.findDrawableById("bubble4_Data");
-		string = mSport.formatTime(mSport.activityTime[mSettings.sportOrder[3]]);
+		string = "4";
 		bubble4Data.setText(string);
 
     	var bubble5 = View.findDrawableById("bubble5");
     	bubble5.setColor(Gfx.COLOR_LT_GRAY);
 		bubble5.setText(labels[4]);
 		var bubble5Data = View.findDrawableById("bubble5_Data");
-		string = mSport.formatTime(mSport.activityTime[mSettings.sportOrder[4]]);
+		string = "5";
 		bubble5Data.setText(string);
 
 		lineColor = getBubbleColor();

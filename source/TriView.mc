@@ -42,10 +42,10 @@ class TriView extends Ui.View {
 				dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
 			}
 			else if (mSport.posnInfo.accuracy == 1) {
-				dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT);
+				dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
 			}
 			else {
-				dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT);
+				dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
 			}
 
 			if (flash == true) {

@@ -1,7 +1,0 @@
-<menu id="orderMenu" title="Select Sport">
-    <menu-item id="firstSport">First Sport</menu-item>
-    <menu-item id="secondSport">Second Sport</menu-item>
-    <menu-item id="thirdSport">Third Sport</menu-item>
-    <menu-item id="fourthSport">Fourth Sport</menu-item>
-    <menu-item id="fifthSport">Fifth Sport</menu-item>
-</menu>

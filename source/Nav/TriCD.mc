@@ -3,20 +3,13 @@ using Toybox.WatchUi as Ui;
 
 class CD extends Ui.ConfirmationDelegate {
 
-	hidden var mSport;
-
-	function initialize(sport) {
+	function initialize() {
 		ConfirmationDelegate.initialize();
-		mSport = sport;
 	}
 
     function onResponse(value) {
         if (value == 1) { //confirm
-			if (Toybox has :ActivityRecording) {
-				if (mSport.session != null) {
-					Sys.exit();
-				}
-			}
+			Sys.exit();
 		}
         return true;
     }
