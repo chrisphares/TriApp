@@ -86,7 +86,7 @@ class TriSport {
 				}
 			}
 			mTimer.stop();
-			mTimer.start(method(:clearAnim), 1000, false); //clear animation color after 1 second
+			mTimer.start(method(:clearAnim), 12000, false); //clear animation color after 1 second
 			Ui.requestUpdate();
 		}
 		return true;

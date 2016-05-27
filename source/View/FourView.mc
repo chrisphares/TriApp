@@ -8,7 +8,6 @@ class FourView extends Ui.View {
 	hidden var mSport;
 	hidden var mSettings;
 	hidden var drawBorder;
-	hidden var image;
 	hidden var drawPlay;
 	hidden var drawStop;
 	const TEXT_MARGIN = 2;
@@ -19,20 +18,16 @@ class FourView extends Ui.View {
 		mSport = sport;
 		mSettings = settings;
 		drawBorder = new Rez.Drawables.border();
-		image = Rez.Drawables.playIcon;
-		drawPlay = Ui.loadResource(image);
+		drawPlay = new Rez.Drawables.play();
 		drawStop = new Rez.Drawables.stop();
 	}
 
-    //! Load your resources here
     function onLayout(dc) {
     	borderWidth = dc.getWidth() - 4;
 		borderHeight = dc.getHeight() - 4;
 		setLayout(Rez.Layouts.dataFields(dc));
-    }
-	//! Called when this View is brought to the foreground. Restore
-	//! the state of this View and prepare it to be shown. This includes
-	//! loading resources into memory.
+	}
+
 	function onShow() {
 	}
 
@@ -90,7 +85,7 @@ class FourView extends Ui.View {
     	View.onUpdate(dc);
 		drawBorder.draw(dc);
 		if (play) {
-			dc.drawBitmap(dc.getWidth() / 2 - 25, dc.getHeight() / 2 - 24, drawPlay);
+			drawPlay.draw(dc);
 		}
 		if (stop) {
 			drawStop.draw(dc);

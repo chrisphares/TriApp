@@ -1,0 +1,4 @@
+<drawable-list id="play" background="Gfx.COLOR_TRANSPARENT">
+	<shape type="polygon" points="[[130, 73], [130, 75], [73, 104], [73, 44]]" color="Gfx.COLOR_BLACK" />
+	<shape type="polygon" points="[[125, 74], [76, 99], [76, 49]]" color="Gfx.COLOR_DK_GREEN" />
+</drawable-list>
