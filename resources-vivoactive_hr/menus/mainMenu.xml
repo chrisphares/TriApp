@@ -1,0 +1,4 @@
+<menu id="mainMenu" title="Settings">
+    <menu-item id="order">Sport Order</menu-item>
+    <menu-item id="display">Display Fields</menu-item>
+</menu>
