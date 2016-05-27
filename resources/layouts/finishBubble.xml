@@ -1,10 +1,10 @@
 <layout id="finishBubble" background="Gfx.COLOR_TRANSPARENT" >
 	<drawable id="fiveBubbles" />
-	<label id="bubble1" text="@Strings.bubble1" x="48" y="75" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	<label id="bubble1" text="@Strings.bubble1" x="48" y="73" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 	<label id="bubble2" text="@Strings.bubble2" x="30" y="128" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 	<label id="bubble3" text="@Strings.bubble3" x="103" y="128" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 	<label id="bubble4" text="@Strings.bubble4" x="174" y="128" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-	<label id="bubble5" text="@Strings.bubble5" x="157" y="75" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	<label id="bubble5" text="@Strings.bubble5" x="157" y="73" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 	<label id="header" text="@Strings.header" x="center" y="28" color="Gfx.COLOR_WHITE" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 	<label id="bubble1_Data" text="@Strings.bubble1_Data" x="48" y="47" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MILD" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 	<label id="bubble2_Data" text="@Strings.bubble2_Data" x="30" y="108" color="Gfx.COLOR_WHITE" font="Gfx.FONT_NUMBER_MILD" justification="Gfx.TEXT_JUSTIFY_CENTER" />
