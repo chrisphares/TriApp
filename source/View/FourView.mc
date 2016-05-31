@@ -7,10 +7,8 @@ class FourView extends Ui.View {
 
 	hidden var mSport;
 	hidden var mSettings;
-	hidden var drawBorder;
-	hidden var drawPlay;
-	hidden var drawStop;
 	hidden var font;
+	hidden var mDrawActivity;
 	const TEXT_MARGIN = 2;
 	const BORDER_PADDING = 4;
 
@@ -18,13 +16,11 @@ class FourView extends Ui.View {
 		View.initialize();
 		mSport = sport;
 		mSettings = settings;
-		drawBorder = new Rez.Drawables.border();
-		drawPlay = new Rez.Drawables.play();
-		drawStop = new Rez.Drawables.stop();
+		mDrawActivity = new drawActivity();
 	}
 
     function onLayout(dc) {
-    	borderWidth = dc.getWidth() - 4;
+		borderWidth = dc.getWidth() - 4;
 		borderHeight = dc.getHeight() - 4;
 
     	if (dc.getWidth() == 205) {
@@ -96,12 +92,13 @@ class FourView extends Ui.View {
 		bottomRightData.setLocation(hValue, (dc.getHeight() - dc.getTextDimensions(string[0], font)[1] - TEXT_MARGIN));
 
     	View.onUpdate(dc);
-		drawBorder.draw(dc);
+
+		mDrawActivity.drawBorder(dc, borderLine);
 		if (play) {
-			drawPlay.draw(dc);
+			mDrawActivity.drawPlay(dc);
 		}
 		if (stop) {
-			drawStop.draw(dc);
+			mDrawActivity.drawStop(dc);
 		}
     }
 

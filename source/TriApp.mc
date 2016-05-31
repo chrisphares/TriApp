@@ -1,7 +1,7 @@
-using Toybox.Application as App;
-using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 using Toybox.Sensor as Snsr;
+using Toybox.Graphics as Gfx;
+using Toybox.Application as App;
 
 // Globals *********************************
 enum {

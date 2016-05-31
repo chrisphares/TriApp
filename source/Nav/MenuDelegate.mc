@@ -1,5 +1,6 @@
-using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics as Gfx;
 using Toybox.ActivityRecording as Record;
 
 class TriMenuDelegate extends Ui.MenuInputDelegate {
@@ -15,102 +16,37 @@ class TriMenuDelegate extends Ui.MenuInputDelegate {
 
     function onMenuItem(item) {
 		if (item == :order) {
-            Ui.pushView(new SportPickerView(mSport, mSettings), new SportPickerInputDelegate(mSport, mSettings, NEXT_SPORT), Ui.SLIDE_UP);
+            Ui.pushView(new PickerChooser(mSettings), new PickerChooserDelegate(mSettings), Ui.SLIDE_UP);
 		}
         else if (item == :display) {
-            Ui.pushView(new SportPickerView(mSport, mSettings), new SportPickerInputDelegate(mSport, mSettings, NEXT_DATA), Ui.SLIDE_UP);
+            Ui.pushView(new Rez.Menus.sportMenu(), new SportMenuDelegate(mSport, mSettings), Ui.SLIDE_IMMEDIATE);
 		}
 		return true;
     }
 }
-
-class SportPickerInputDelegate extends Ui.InputDelegate {
-
- 	hidden var mSport;
-	hidden var mSettings;
-	hidden var mNextAction;
-
-	function initialize(sport, settings, nextAction) {
-		InputDelegate.initialize();
-		mSport = sport;
-		mSettings = settings;
-		mNextAction = nextAction;
-	}
-
-	function onTap(evt) {
-		var clickEvent = evt.getType();
-		if (clickEvent == CLICK_TYPE_TAP) {
-			var coords = evt.getCoordinates();
-			var sportPicker = null;
-			if ((coords[0] > 71) && (coords[0] < 141) && (coords[1] > 99)) {
-	        	sportPicker = 4;
-			}
-			else if ((coords[0] < 70) && (coords[1] > 99)) {
-	        	sportPicker = 3;
-			}
-			else if ((coords[0] > 142) && (coords[1] > 33) && (coords[1] < 98)) {
-	        	sportPicker = 2;
-			}
-			else if ((coords[0] > 71)  && (coords[0] < 141) && (coords[1] > 33)) {
-	        	sportPicker = 1;
-			}
-			else if ((coords[0] < 70) && (coords[1] > 33)) {
-				sportPicker = 0;
-			}
-
-			nextAction(sportPicker);
-		}
-	}
-
-    function getSportMenu(sport) {
-		var menu = new Ui.Menu();
-		menu.setTitle("Current: " + mSettings.sportData[sport][SPDAT_INFO][1]);
-		for (var i = 0; i < mSettings.sportData.size(); i++) {
-			if (mSettings.sportData[i] != null) {
-				var sportName = mSettings.sportData[i][SPDAT_INFO][1];
-				menu.addItem(sportName, i);
-			}
-		}
-		return menu;
-    }
-
-    function nextAction(sport) {
-		if (sport != null) {
-			if (mNextAction == NEXT_SPORT) {
-				var nextMenu;
-				nextMenu = getSportMenu(mSettings.sportOrder[sport]);
-				Ui.pushView(nextMenu, new OrderMenuDelegate(mSport, mSettings, sport), Ui.SLIDE_UP);
-			}
-			else if (mNextAction == NEXT_DATA) {
-				var thisSport = mSettings.sportOrder[sport];
-				Ui.pushView(new DisplayPickerView(mSport, mSettings, thisSport), new DisplayPickerInputDelegate(mSport, mSettings, thisSport), Ui.SLIDE_UP);
-			}
-		}
-		return true;
-	}
-}
-
-class OrderMenuDelegate extends Ui.MenuInputDelegate {
+class SportMenuDelegate extends Ui.MenuInputDelegate {
 
 	hidden var mSport;
 	hidden var mSettings;
-	hidden var mSportPicker;
 
-    function initialize(sport, settings, sportPicker) {
+    function initialize(sport, settings) {
 		mSport = sport;
 		mSettings = settings;
-		mSportPicker = sportPicker;
         MenuInputDelegate.initialize();
     }
 
     function onMenuItem(item) {
-		if (mSportPicker != null) {
-			for (var i = 0; i < mSettings.sportData.size(); i++) {
-				if (i == item) {
-					mSettings.sportOrder[mSportPicker] = i; //change to object.setvalue thingy
-					mSportPicker = null;
-				}
-			}
+		if (item == :swim) {
+            Ui.pushView(new DisplayPickerView(mSport, mSettings, Record.SPORT_SWIMMING), new DisplayPickerInputDelegate(mSport, mSettings, Record.SPORT_SWIMMING), Ui.SLIDE_UP);
+		}
+        else if (item == :bike) {
+            Ui.pushView(new DisplayPickerView(mSport, mSettings, Record.SPORT_CYCLING), new DisplayPickerInputDelegate(mSport, mSettings, Record.SPORT_CYCLING), Ui.SLIDE_UP);
+		}
+        else if (item == :run) {
+            Ui.pushView(new DisplayPickerView(mSport, mSettings, Record.SPORT_RUNNING), new DisplayPickerInputDelegate(mSport, mSettings, Record.SPORT_RUNNING), Ui.SLIDE_UP);
+		}
+        else if (item == :transition) {
+            Ui.pushView(new DisplayPickerView(mSport, mSettings, Record.SPORT_TRANSITION), new DisplayPickerInputDelegate(mSport, mSettings, Record.SPORT_TRANSITION), Ui.SLIDE_UP);
 		}
 		return true;
     }
