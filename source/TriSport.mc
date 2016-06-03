@@ -86,7 +86,7 @@ class TriSport {
 				}
 			}
 			mTimer.stop();
-			mTimer.start(method(:clearAnim), 12000, false); //clear animation color after 1 second
+			mTimer.start(method(:clearAnim), 1000, false); //clear animation color after 1 second
 			Ui.requestUpdate();
 		}
 		return true;
@@ -162,7 +162,7 @@ class TriSport {
 			else {
 				sportData[0] = "--";
 			}
-			sportData[1] = "Distance";
+			sportData[1] = "Dist";
 		}
 		else if (label == DATA_ELAPSED_TIME) {
 			if (actInfo.elapsedTime != null) {
@@ -175,7 +175,7 @@ class TriSport {
 		}
 		else if (label == DATA_LAP_TIME) { //not accurate yet
 			sportData[0] = "80:08.5";
-			sportData[1] = "Lap Time";
+			sportData[1] = "Lap";
 		}
 		else if (label == DATA_HR) {
 			if (sensInfo.heartRate != null) {
@@ -184,7 +184,7 @@ class TriSport {
 			else {
 				sportData[0] = "--";
 			}
-			sportData[1] = "Heart Rate";
+			sportData[1] = "BPM";
 		}
 		else if (label == DATA_RUN_CADENCE) {
 			if (actInfo.currentCadence != null) {
@@ -193,11 +193,11 @@ class TriSport {
 			else {
 				sportData[0] = "--";
 			}
-			sportData[1] = "Cadence";
+			sportData[1] = "SPM";
 		}
 		else if (label == DATA_BIKE_CADENCE) {
 			sportData[0] = "--";
-			sportData[1] = "Cadence";
+			sportData[1] = "Cad";
 		}
 		else if (label == DATA_10S_POWER) {
 			var count = 0;
@@ -214,7 +214,7 @@ class TriSport {
 			else {
 				sportData[0] = "--";
 			}
-			sportData[1] = "10s Power";
+			sportData[1] = "10s Pwr";
 		}
 		else if (label == DATA_30S_POWER) {
 			var count = 0;
@@ -231,11 +231,11 @@ class TriSport {
 			else {
 				sportData[0] = "--";
 			}
-			sportData[1] = "30s Power";
+			sportData[1] = "30s Pwr";
 		}
 		else if (label == DATA_LAP_PACE) {
-			sportData[0] = "6:70";
-			sportData[1] = "Lap Pace";
+			sportData[0] = "12:70";
+			sportData[1] = "Lap";
 		}
 
 		return sportData;

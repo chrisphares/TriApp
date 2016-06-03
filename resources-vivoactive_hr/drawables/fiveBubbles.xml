@@ -1,0 +1,13 @@
+<drawable-list id="fiveBubbles">
+	<shape type="rectangle" x="center" y="28" width="dc.getWidth()" height="2" color="Gfx.COLOR_DK_GRAY" />
+	<shape type="circle" x="41" y="61" radius="43" color="lineColor[0]" />
+	<shape type="circle" x="41" y="61" radius="39" color="Gfx.COLOR_BLACK" />
+	<shape type="circle" x="110" y="65" radius="36" color="lineColor[1]" />
+	<shape type="circle" x="110" y="65" radius="32" color="Gfx.COLOR_BLACK" />
+	<shape type="circle" x="93" y="119" radius="43" color="lineColor[2]" />
+	<shape type="circle" x="93" y="119" radius="39" color="Gfx.COLOR_BLACK" />
+	<shape type="circle" x="110" y="176" radius="36" color="lineColor[3]" />
+	<shape type="circle" x="110" y="176" radius="32" color="Gfx.COLOR_BLACK" />
+	<shape type="circle" x="41" y="180" radius="43" color="lineColor[4]" />
+	<shape type="circle" x="41" y="180" radius="39" color="Gfx.COLOR_BLACK" />
+</drawable-list>

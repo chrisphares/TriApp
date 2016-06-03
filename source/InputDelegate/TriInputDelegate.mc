@@ -26,4 +26,8 @@ class TriInputDelegate extends Ui.InputDelegate {
 			Ui.pushView(new Rez.Menus.mainMenu(), new TriMenuDelegate(mSport, mSettings), Ui.SLIDE_IMMEDIATE);
 		}
 	}
+
+	function onHold(evt) {
+		Ui.pushView(new Rez.Menus.mainMenu(), new TriMenuDelegate(mSport, mSettings), Ui.SLIDE_IMMEDIATE);
+	}
 }

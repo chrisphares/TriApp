@@ -1,0 +1,13 @@
+<drawable-list id="sixBubbles">
+	<shape type="circle" x="37" y="63" radius="35" color="lineColor[0]" />
+	<shape type="circle" x="37" y="63" radius="31" color="Gfx.COLOR_BLACK" />
+	<shape type="circle" x="111" y="63" radius="35" color="lineColor[1]" />
+	<shape type="circle" x="111" y="63" radius="31" color="Gfx.COLOR_BLACK" />
+	<shape type="circle" x="37" y="120" radius="35" color="lineColor[2]" />
+	<shape type="circle" x="37" y="120" radius="31" color="Gfx.COLOR_BLACK" />
+	<shape type="circle" x="111" y="120" radius="35" color="lineColor[3]" />
+	<shape type="circle" x="111" y="120" radius="31" color="Gfx.COLOR_BLACK" />
+	<shape type="circle" x="37" y="178" radius="35" color="lineColor[4]" />
+	<shape type="circle" x="37" y="178" radius="31" color="Gfx.COLOR_BLACK" />
+	<shape type="rectangle" x="center" y="28" width="dc.getWidth()" height="4" color="Gfx.COLOR_DK_GRAY" />
+</drawable-list>

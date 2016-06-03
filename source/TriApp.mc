@@ -1,7 +1,7 @@
-using Toybox.Application as App;
-using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 using Toybox.Sensor as Snsr;
+using Toybox.Graphics as Gfx;
+using Toybox.Application as App;
 
 // Globals *********************************
 enum {
@@ -37,6 +37,7 @@ var lineColor; //seperator line color
 var borderLine = Gfx.COLOR_TRANSPARENT; //hide it unless explicitly changed
 var borderWidth;
 var borderHeight;
+var screenCenter = new [2];
 var play = false; //play animation visible
 var stop = false; //stop animation visible
 

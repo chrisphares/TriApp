@@ -17,14 +17,15 @@ class DisplayPickerView extends Ui.View {
 		thisSport = displayPicker;
 	}
 
-    function onLayout(dc) {
+	function onLayout(dc) {
+		screenCenter[0] = dc.getWidth() / 2;
+		screenCenter[1] = dc.getHeight() / 2;
 		setLayout(Rez.Layouts.dataFields(dc));
 	}
 
 	function onShow() {
 	}
 
-	//! Update the view
 	function onUpdate(dc) {
     	var string;
     	var hValue;

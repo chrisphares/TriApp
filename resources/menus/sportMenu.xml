@@ -1,0 +1,6 @@
+<menu id="sportMenu" title="Select Sport">
+    <menu-item id="swim">Swim Fields</menu-item>
+    <menu-item id="bike">Bike Fields</menu-item>
+    <menu-item id="run">Run Fields</menu-item>
+    <menu-item id="trans">Transition Fields</menu-item>
+</menu>
