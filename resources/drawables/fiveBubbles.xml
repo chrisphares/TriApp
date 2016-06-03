@@ -4,8 +4,8 @@
 	<shape type="circle" x="30" y="125" radius="32" color="Gfx.COLOR_BLACK" />
 	<shape type="circle" x="174" y="125" radius="36" color="lineColor[3]" />
 	<shape type="circle" x="174" y="125" radius="32" color="Gfx.COLOR_BLACK" />
-	<shape type="circle" x="51" y="59" radius="43" color="lineColor[0]" />
-	<shape type="circle" x="51" y="59" radius="39" color="Gfx.COLOR_BLACK" />
+	<shape type="circle" x="48" y="59" radius="43" color="lineColor[0]" />
+	<shape type="circle" x="48" y="59" radius="39" color="Gfx.COLOR_BLACK" />
 	<shape type="circle" x="103" y="114" radius="43" color="lineColor[2]" />
 	<shape type="circle" x="103" y="114" radius="39" color="Gfx.COLOR_BLACK" />
 	<shape type="circle" x="157" y="59" radius="43" color="lineColor[4]" />

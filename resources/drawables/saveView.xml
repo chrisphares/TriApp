@@ -1,6 +1,0 @@
-<drawable-list id="saveView">
-	<shape type="rectangle" x="center" y="32" width="185" height="dc.getHeight()" color="Gfx.COLOR_WHITE" />
-	<shape type="rectangle" x="center" y="34" width="181" height="dc.getHeight()" color="Gfx.COLOR_BLACK" />
-	<shape type="rectangle" x="center" y="95" width="185" height="2" color="Gfx.COLOR_WHITE" />
-	<shape type="rectangle" x="60" y="95" width="2" height="53" color="Gfx.COLOR_WHITE" />
-</drawable-list>

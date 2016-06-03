@@ -53,7 +53,7 @@ class PickerChooserDelegate extends Ui.PickerDelegate {
 	function onAccept(values) {
 		for (var i = 0; i < values.size(); i++) {
 			if (values[i] != mSettings.sportOrder[i]) {
-				mSettings.sportOrder = values;
+				mSettings.sportOrder[i] = values[i];
 			}
 		}
 		Ui.popView(Ui.SLIDE_IMMEDIATE);

@@ -36,13 +36,12 @@ class FourView extends Ui.View {
 	function onShow() {
 	}
 
-	//! Update the view
-    function onUpdate(dc) {
-    	var thisSport = mSport.getSport();
-    	var string = new [2];
-    	var hValue;
+	function onUpdate(dc) {
+		var thisSport = mSport.getSport();
+		var string = new [2];
+		var hValue;
 
-    	lineColor = getLineColor(thisSport);
+		lineColor = getLineColor(thisSport);
 
 		string = mSport.getData(mSettings.sportData[thisSport][SPDAT_DATA][0]);
     	var topLeft = View.findDrawableById("topLeft");

@@ -70,16 +70,18 @@ class DisplayPickerInputDelegate extends Ui.InputDelegate {
 		if (clickEvent == CLICK_TYPE_TAP) {
 			var quadrant = null;
 			var coords = evt.getCoordinates();
-			if ((coords[0] > 103) && (coords[1] > 75)) {
+			Sys.println(coords[0] + " : " + coords[1]);
+			Sys.println(screenCenter[0] + " : " + screenCenter[1]);
+			if ((coords[0] > screenCenter[0]) && (coords[1] > screenCenter[1])) {
 				quadrant = 3;
 			}
-			else if ((coords[0] < 102) && (coords[1] > 75)) {
+			else if ((coords[0] < screenCenter[0]) && (coords[1] > screenCenter[1])) {
 				quadrant = 2;
 			}
-			else if ((coords[0] > 103) && (coords[1] < 74)) {
+			else if ((coords[0] > screenCenter[0]) && (coords[1] < screenCenter[1])) {
 				quadrant = 1;
 			}
-			else if ((coords[0] < 102) && (coords[1] < 74)) {
+			else if ((coords[0] < screenCenter[0]) && (coords[1] < screenCenter[1])) {
 				quadrant = 0;
 			}
 
